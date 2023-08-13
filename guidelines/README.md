@@ -19,6 +19,7 @@ Anyone can import any of their songs in AraMIDI format and publish their modific
 ### 4.2 Regarding Harmful Content
 Importing a MIDI/Song file with a name that violates Github TOS and Scratch TOS is not allowed. Any MIDI/Song file containing hate messages, harassment, discrimination, and profanity are not allowed to be imported to a published modification of any of my MIDI Players. **Using any of my MIDI Players to promote hate, harassment, discrimination, or any other illicit intent is not allowed.**
 
-**By using any of my MIDI Players, you agree to these rules and guidelines.** While I may not be able to moderate content anyone has made, I have no responsibility for anyone's actions. Should your Scratch account get taken down for violating policies, you are only to blame. __Follow rules, and stay safe.__
+### By using any of my MIDI Players, you agree to these rules and guidelines.
+While I may not be able to moderate content anyone has made, I have no responsibility for anyone's actions. Should your Scratch account get taken down for violating policies, you are only to blame. __Follow rules, and stay safe.__
 
 [Return to Main Page](https://edenathan256.github.io/aranara-midi-player-sb3)
