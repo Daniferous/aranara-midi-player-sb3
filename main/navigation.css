@@ -1,0 +1,112 @@
+.navigation-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.navigation-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navigation-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.navigation-text {
+  font-size: 24px;
+  text-decoration: none;
+}
+.navigation-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation-navlink {
+  display: contents;
+}
+.navigation-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  text-decoration: none;
+}
+.navigation-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navigation-navlink1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navigation-link {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navigation-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navigation-link2 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navigation-link3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .navigation-container {
+    background-color: #292929;
+  }
+  .navigation-nav {
+    width: 90%;
+    margin-top: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    justify-content: center;
+  }
+  .navigation-text {
+    font-size: 24px;
+  }
+  .navigation-icon {
+    fill: #fc3;
+  }
+}
+@media(max-width: 767px) {
+  .navigation-navlink1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-link {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-link1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-link2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-link3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
