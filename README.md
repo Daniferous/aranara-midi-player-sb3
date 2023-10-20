@@ -3,6 +3,10 @@
 
 **Please consider checking [rules and guidelines](https://edenathan256.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
+## Disclaimer:
+*Note: This page will be replaced with a WIP site that should make it easy on the eyes!*
+[Click here to check the new page!](https://edenathan256.github.io/aranara-midi-player-sb3/main/index.html)
+
 ## Here are the latest and most updated versions of my (Danify) MIDI Players!
 
 1. [Aranara MIDI Player Release 1.3.2](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.3.2.html)
