@@ -134,6 +134,11 @@
   justify-content: space-between;
   background-color: #292929;
 }
+.mobile_navigation {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .Content {
   font-size: 16px;
   font-family: Inter;
@@ -153,6 +158,14 @@
 @media(max-width: 991px) {
   .navbar-special {
     font-family: Inter;
+  }
+  .mobile_navigation {
+    width: 90%;
+    margin-top: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    justify-content: center;
   }
 }
 @media(max-width: 767px) {

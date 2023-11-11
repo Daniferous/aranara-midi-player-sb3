@@ -10,13 +10,17 @@
 # Versions 
 See Bottom for Modded Variants
 
+## R1.5.4
+*Implemented the Boba Branch and merged it with the main branch. Identical to the latest Boba Update (B1.2)*
+- [Aranara MIDI Player Release 1.5.4](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.4.html)
+
 ## R1.5.3
 - [Aranara MIDI Player Release 1.5.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3.html)
 - [Aranara MIDI Player Release 1.5.3 Widescreen](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3W.html)
 
 ## R1.5.3 - Boba Branch
 *The Boba Branch is an experimental branch where only the audio events and visual data are used during playback, at the cost of not having a notecount...*
-- [Aranara MIDI Player Release 1.5.3 Boba 1.1](edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MP%201.5.3%20Boba%201.1.html)
+- [Aranara MIDI Player Release 1.5.3 Boba 1.1](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MP%201.5.3%20Boba%201.1.html)
 
 ## R1.4.0
 *Private Development Branch, not really used for R1.5.X*

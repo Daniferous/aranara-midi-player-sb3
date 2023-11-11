@@ -9,9 +9,10 @@
 
 ## Here are the latest and most updated versions of my (Danify) MIDI Players!
 
-1. [Aranara MIDI Player Release 1.5.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3.html)
-2. [Aranara MIDI Player Release 1.5.3 Widescreen](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3W.html)
-3. [Aranara MIDI Player Release 1.5.3 Boba 1.1](edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MP%201.5.3%20Boba%201.1.html)
+1. [Aranara MIDI Player Release 1.5.4](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.4.html)
+2. [Aranara MIDI Player Release 1.5.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3.html)
+3. [Aranara MIDI Player Release 1.5.3 Widescreen](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3W.html)
+4. [Aranara MIDI Player Release 1.5.3 Boba 1.1](edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MP%201.5.3%20Boba%201.1.html)
 [More Versions](https://edenathan256.github.io/aranara-midi-player-sb3/versions)
 
 ## Lurker of the Lost (Aranara MIDI Player Horror Themed Game)
