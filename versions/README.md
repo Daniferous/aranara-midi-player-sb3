@@ -10,7 +10,7 @@
 # Versions 
 See Bottom for Modded Variants
 
-## Aranara MIDI Lite R0.3.3
+## Aranara MIDI Lite V0.3.4
 *Intended to be lightweight, revamped version of R1.5.4*
 - [Aranara MIDI Player Lite V0.3.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.4.2.html)
 
