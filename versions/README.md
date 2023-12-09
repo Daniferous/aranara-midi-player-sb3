@@ -12,7 +12,7 @@ See Bottom for Modded Variants
 
 ## Aranara MIDI Lite R0.3.3
 *Intended to be lightweight, revamped version of R1.5.4*
-- [Aranara MIDI Player Lite V0.3.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.3.5.html)
+- [Aranara MIDI Player Lite V0.3.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.4.2.html)
 
 ## R1.5.4
 *Implemented the Boba Branch and merged it with the main branch. Identical to the latest Boba Update (B1.2)*
