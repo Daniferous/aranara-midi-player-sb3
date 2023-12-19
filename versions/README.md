@@ -10,9 +10,15 @@
 # Versions 
 See Bottom for Modded Variants
 
-## Aranara MIDI Lite V0.3.4
-*Intended to be lightweight, revamped version of R1.5.4*
-- [Aranara MIDI Player Lite V0.3.4](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.4.2.html)
+## Aranara MIDI Lite V0.3.5
+*Intended to be lightweight, revamped version of R1.5.5. Block Ct: 1280*
+- [Aranara MIDI Player Lite V0.3.5](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
+*Contains slightly more blocks but is more similar to PFA. Block Ct: 1305*
+- [Aranara MIDI Player Lite V0.3.5 Fancy](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html)
+
+## R1.5.5
+*Minor Bug Fixes*
+- [Aranara MIDI Player Release 1.5.5](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.5.html)
 
 ## R1.5.4
 *Implemented the Boba Branch and merged it with the main branch. Identical to the latest Boba Update (B1.2)*
