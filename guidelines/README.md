@@ -31,7 +31,7 @@ Anyone can adopt any of my MIDI Players and its project assets to their own crea
 Anyone can use any of my MIDI players and any of its project assets for educational and recreational purposes. That being said, profiting from my MIDI Players, or modified variations of my MIDI Players are not allowed.
 ### 3.1 Regarding definitions of "profiting"
 **Profiting refers to commercial use and is not allowed.** However, the only exception is on Video Showcases. Donations will be considered as profiting and therefore not allowed should said donation unlock features in modified variations of my MIDI Players.
-### 3.2 Regarding Video Showcases
+### 3.2 Regarding Video Showcases of MIDI Players and MIDI Player-based Games
 Profiting from video showcases in streaming services such as "YouTube" or "Tiktok" (monetization) is allowed. **Should anyone make a video containing any of my MIDI Players or any modification thereof shall provide proper creditation as stated in the first rule.**
 
 ## 4. MIDI/Song Import Policies

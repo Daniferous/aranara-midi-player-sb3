@@ -10,6 +10,11 @@
 # Versions 
 See Bottom for Modded Variants
 
+## 2.3.1
+*Added PFA Color Mode*
+Note: There is a known bug wherein regardless of tracks, channel colors will remain the same if using PFA Color Mode. (MIDITrail-like)
+- [Aranara MIDI Player Release 2.3.1](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.1.html)
+
 ## 2.2.0
 *New Audio System Test - First Public Release of 2.X*
 - [Aranara MIDI Player Release 2.2.2](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.2.2.html)

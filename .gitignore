@@ -1,5 +1,6 @@
 # outdated stuff are omitted to ensure up-to-date compatibility.
 outdated_builds
+outdated_events
 
 #backup html files
 backup_builds
