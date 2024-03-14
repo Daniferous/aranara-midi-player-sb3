@@ -10,11 +10,17 @@
 # Versions 
 See Bottom for Modded Variants
 
+## 2.3.3
+*Revamped Aranara MIDI Format!*
+### Please Note!
+A crucial update has been made to the Aranara MIDI Format. Thus, any future Aranara MIDI Format Projects will require any new Aranara MIDIs made with the updated Modded MIDIParser Converter Tool!
+- [Aranara MIDI Player Release 2.3.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.3.html)
+
+
 ## 2.3.2
 *Added PFA Color Mode*
 *Fixed a bug in deleting songs*
 Note: There is a known bug wherein regardless of tracks, channel colors will remain the same if using PFA Color Mode. (MIDITrail-like)
-- [Aranara MIDI Player Release 2.3.1](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.2.html)
 
 ## 2.2.0
 *New Audio System Test - First Public Release of 2.X*
@@ -54,5 +60,55 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 ## R1.3.2
 - [Aranara MIDI Player Release 1.3.2](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.3.2.html)
 - [Aranara MIDI Player Release 1.3.2 Widescreen](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.3.2W.html)
+
+# Aranara MIDI Format Versions
+## Main Structure
+
+Structure is as follows:
+```
+[Data Type][Data Value/s]*
+*Variable Length Data Values are concluded with a separator, "|".
+```
+Data Type can be as follows:
+```
+0 - 7: First digit of note pitch, which ranges from 00 to 7F.
+8 - B: Reserved, Unused
+C: Control Change, Unused
+D: Program Change
+E: Tempo Change
+F: Track Header
+```
+Data Values depend on the Data Type:
+1. Note Events
+```
+[Pitch - 2 chars][Velocity - 2 chars][Channel - 1 char][Tick - Variable][Separator][Length - Variable][Separator]
+```
+2. Program Change
+```
+[Patch Value - 2 chars][Channel - 1 char][Tick - Variable][Separator]
+```
+3. Tempo Change
+```
+[Microseconds per Beat - Variable][Separator][Tick - Variable][Separator]
+```
+4. Track Header
+```
+[Track Value - Variable][Separator]
+```
+## Versions
+- 1.2
+```diff
++ Added Header "[Aranara]█"
++ Support for Older Aranara Format MIDIs still allowed
+- Fixed Bug which caused Channel 16 events to be parsed as Channel 1 Events
+- Older Aranara Format MIDIs will still need to be reconverted using the updated conversion tool.
+```
+- 1.1
+```diff
++ Added Support for Program Change
+```
+- 1.0
+Initial Version of Aranara MIDI Format
+
 
 [Return to Main Page](https://edenathan256.github.io/aranara-midi-player-sb3)
