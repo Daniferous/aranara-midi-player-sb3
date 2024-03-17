@@ -8,15 +8,13 @@
 [Click here to check the new page!](https://edenathan256.github.io/aranara-midi-player-sb3/main/index.html)
 
 ## Here are the latest and most updated versions of my (Danify) MIDI Players!
+*Note: Starting 2024.07.01, older builds will be stored in a Google Drive repository.*
 
-1. [Aranara MIDI Player Release 2.3.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.3.html)
+1. [Aranara MIDI Player Release 2.3.4](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.4.html)
 2. [Aranara MIDI Player Release 2.2.2](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.2.2.html)
 3. [Aranara MIDI Player Lite V0.3.5](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
 4. [Aranara MIDI Player Lite V0.3.5 Fancy](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html)
 5. [Aranara MIDI Player Release 1.5.4](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.4.html)
-6. [Aranara MIDI Player Release 1.5.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3.html)
-7. [Aranara MIDI Player Release 1.5.3 Widescreen](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3W.html)
-8. [Aranara MIDI Player Release 1.5.3 Boba 1.1](edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MP%201.5.3%20Boba%201.1.html)
 
 [Click HERE for More Versions](https://edenathan256.github.io/aranara-midi-player-sb3/versions)
 

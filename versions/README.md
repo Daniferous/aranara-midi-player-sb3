@@ -10,17 +10,19 @@
 # Versions 
 See Bottom for Modded Variants
 
+## 2.3.4
+*Fixed bug where having more than multiple songs would cause choosing menu options to load/delete songs*
+- [Aranara MIDI Player Release 2.3.4](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.4.html)
+
 ## 2.3.3
 *Revamped Aranara MIDI Format!*
 ### Please Note!
 A crucial update has been made to the Aranara MIDI Format. Thus, any future Aranara MIDI Format Projects will require any new Aranara MIDIs made with the updated Modded MIDIParser Converter Tool!
-- [Aranara MIDI Player Release 2.3.3](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.3.html)
-
 
 ## 2.3.2
 *Added PFA Color Mode*
 *Fixed a bug in deleting songs*
-Note: There is a known bug wherein regardless of tracks, channel colors will remain the same if using PFA Color Mode. (MIDITrail-like)
+Note: There is a known bug wherein regardless of tracks, channel colors will remain the same if using PFA Color Mode. (MIDITrail-like) This has been fixed in 2.3.3.
 
 ## 2.2.0
 *New Audio System Test - First Public Release of 2.X*
@@ -35,8 +37,8 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 ## Aranara MIDI Lite V0.3.5
 *Intended to be lightweight, revamped version of R1.5.5. Block Ct: 1280*
 - [Aranara MIDI Player Lite V0.3.5](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
+- [Aranara MIDI Player Lite V0.3.5 Fancy](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html) 
 *Contains slightly more blocks but is more similar to PFA. Block Ct: 1305*
-- [Aranara MIDI Player Lite V0.3.5 Fancy](https://edenathan256.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html)
 
 ## R1.5.5
 *Minor Bug Fixes*
@@ -105,6 +107,7 @@ Data Values depend on the Data Type:
 ```
 - 1.1
 ```diff
++ Added MIDI Resolution (Typically stored as 768 ticks per half note, or 384 ticks per quarter note)
 + Added Support for Program Change
 ```
 - 1.0
