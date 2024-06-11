@@ -1,13 +1,13 @@
 # Aranara MIDI Players
 *Scratch-Based MIDI Player that is named Aranara because of my interest in Genshin Impact. This has nothing to do with programs that play MIDIs in any Genshin Impact instruments!*
 
-**Please consider checking [rules and guidelines](https://edenathan256.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
+**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
 # Lurker of the Lost
 *Finally, it has been a while, but my experiment is ready for public testing... I hope?*
 
 Out of all the things to make a horror game from, why a MIDI Player?
-Well, that's the thing. This was not meant to happen. Aranara MIDI Player was supposed to be a normal build. But somehow, something bad happened. Perhaps you downloaded a MIDI file that should not be downloaded, or the version you retrieved is not from the official [Danify Discord Server](https://discord.gg/kTD8y6YDjJ), or that you just got very unlucky.
+Well, that's the thing. This was not meant to happen. Aranara MIDI Player was supposed to be a normal build. But somehow, something bad happened. Perhaps you downloaded a MIDI file that should not be downloaded, or the version you retrieved is not from the official [Daniferous Discord Server](https://discord.gg/kTD8y6YDjJ), or that you just got very unlucky.
 
 Either way, something is wrong with this version, and it is up to you to figure out what had happened.
 
@@ -32,7 +32,7 @@ You could still play this game. Even Linux users could too! It is the MIDI Impor
 I... I don't know, really. I am too busy and am behind on a lot of work. In short: we'll see. Definitely within this generation for sure.
 
 # Play the game:
-- [Github Link](https://edenathan256.github.io/aranara-midi-player-sb3/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html) (No downloads yet... until I make a standalone EXE file at RELEASE Version.)
+- [Github Link](https://daniferous.github.io/aranara-midi-player-sb3/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html) (No downloads yet... until I make a standalone EXE file at RELEASE Version.)
 - Scratch Link (Not available... until I add an option that can disable those spooky sounds that are probably no longer allowed... yikes)
 
 # Changelog
@@ -51,4 +51,4 @@ I... I don't know, really. I am too busy and am behind on a lot of work. In shor
 - More of a mod than a standalone game...
 - Most of the main story is done.
 
-[Return to Main Page](https://edenathan256.github.io/aranara-midi-player-sb3)
+[Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)

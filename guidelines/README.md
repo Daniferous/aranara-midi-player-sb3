@@ -7,7 +7,7 @@ Most of the rules listed are common sense.
 
 ## Disclaimer:
 *Note: This page will be replaced with a WIP site that should make it easy on the eyes!*
-[Click here to check the new page!](https://edenathan256.github.io/aranara-midi-player-sb3/main/index.html)
+[Click here to check the new page!](https://daniferous.github.io/aranara-midi-player-sb3/main/index.html)
 
 ## Summary of Rules and Guidelines:
 1. Provide proper credits.
@@ -18,7 +18,7 @@ Most of the rules listed are common sense.
 6. Show respect and courtesy in any discussions in either my email, my [Scratch Profile](https://scratch.mit.edu/users/OjasnGamer101/), and the [Daniferousity Discord Server](https://discord.gg/kTD8y6YDjJ). 
 
 ## 1. Credits
-Provide proper creditation for using any of my (Danify/Eden/OJG101) MIDI Players. Credits can be as concise as mentioning my [Scratch Profile](https://scratch.mit.edu/users/OjasnGamer101/) and/or my [YouTube Channel](https://www.youtube.com/c/Edenathan256). 
+Provide proper creditation for using any of my (daniferous/Eden/OJG101) MIDI Players. Credits can be as concise as mentioning my [Scratch Profile](https://scratch.mit.edu/users/OjasnGamer101/) and/or my [YouTube Channel](https://www.youtube.com/c/DanieZuha). 
 ### 1.1 Regarding Asset Credits
 However, consider including the asset credits provided in the [original Scratch project link](https://scratch.mit.edu/projects/554156777/) as assets, such as sounds, were created by other people. If you use assets found in any of my MIDI Players that are made by other people, credit those people in your modifications and/or projects.
 
@@ -62,4 +62,4 @@ Usage of alternate accounts to try and gain access to Insider/Private Builds or 
 # By using any of my MIDI Players, you agree to these rules and guidelines.
 While I may not be able to moderate content anyone has made, I have no responsibility for anyone's actions. Should your Scratch account get taken down for violating policies, you are only to blame. **Follow rules and stay safe.**
 
-[Return to Main Page](https://edenathan256.github.io/aranara-midi-player-sb3)
+[Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
