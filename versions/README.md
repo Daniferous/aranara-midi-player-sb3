@@ -10,9 +10,12 @@
 # Versions 
 See Bottom for Modded Variants
 
+## 2.3.8
+*Added a setting to control audio velocity threshold. This mutes notes that are at or under this value.*
+- [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.8.html)
+
 ## 2.3.7
 *Fixed a bug where Program Change does not work as intended for Ch 16.*
-- [Aranara MIDI Player Release 2.3.7](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.7.html)
 
 ## 2.3.4
 *Fixed bug where having more than multiple songs would cause choosing menu options to load/delete songs*

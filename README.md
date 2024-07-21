@@ -8,9 +8,10 @@
 [Click here to check the new page!](https://daniferous.github.io/aranara-midi-player-sb3/main/index.html)
 
 ## Here are the latest and most updated versions of my (Danify) MIDI Players!
-*Note: Starting 2024.07.01, older builds will be stored in a Google Drive repository.*
+~~*Note: Starting 2024.07.01, older builds will be stored in a Google Drive repository.*~~
+*Updated 2024.07.21: older builds will be transferred soon.*
 
-1. [Aranara MIDI Player Release 2.3.7](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.7.html)
+1. [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.8.html)
 2. [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.2.2.html)
 3. [Aranara MIDI Player Lite V0.3.5](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
 4. [Aranara MIDI Player Lite V0.3.5 Fancy](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html)
