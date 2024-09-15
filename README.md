@@ -3,24 +3,23 @@
 
 **Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
-## Disclaimer:
-*Note: This page will be replaced with a WIP site that should make it easy on the eyes!*
-[Click here to check the new page!](https://daniferous.github.io/aranara-midi-player-sb3/main/index.html)
-
 ## Here are the latest and most updated versions of my (Danify) MIDI Players!
-~~*Note: Starting 2024.07.01, older builds will be stored in a Google Drive repository.*~~
-*Updated 2024.07.21: older builds will be transferred soon.*
+*Older Builds have been transferred to a new Google Drive repository.*
 
-1. [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.8.html)
-2. [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.2.2.html)
-3. [Aranara MIDI Player Lite V0.3.5](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
-4. [Aranara MIDI Player Lite V0.3.5 Fancy](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html)
-5. [Aranara MIDI Player Release 1.5.4](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.4.html)
+1. [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
+2. [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.2.2.html)
+3. [Aranara MIDI Player Lite V0.3.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
+4. [Aranara MIDI Player Lite V0.3.5 Fancy](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html)
+5. [Aranara MIDI Player Release 1.5.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.5.html)
 
 [Click HERE for More Versions](https://daniferous.github.io/aranara-midi-player-sb3/versions)
 
+## Aranara MIDI Renderer Toolkit
+*Aranara MIDI Player for Rendering Use*
+[Aranara MIDI Renderer Toolkit 1.2.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Renderer%20Toolkit%201.2.html)
+
 ## Lurker of the Lost (Aranara MIDI Player Horror Themed Game)
-[Lurker of the Lost - Beta Release 1.1](https://daniferous.github.io/aranara-midi-player-sb3/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html)
+[Lurker of the Lost - Beta Release 1.1](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html)
 [Learn more about the game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
 
 ## DEMO AraMIDI files:

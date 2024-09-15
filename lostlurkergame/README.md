@@ -32,7 +32,7 @@ You could still play this game. Even Linux users could too! It is the MIDI Impor
 I... I don't know, really. I am too busy and am behind on a lot of work. In short: we'll see. Definitely within this generation for sure.
 
 # Play the game:
-- [Github Link](https://daniferous.github.io/aranara-midi-player-sb3/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html) (No downloads yet... until I make a standalone EXE file at RELEASE Version.)
+- [Github Link](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html) (No downloads yet... until I make a standalone EXE file at RELEASE Version.)
 - Scratch Link (Not available... until I add an option that can disable those spooky sounds that are probably no longer allowed... yikes)
 
 # Changelog

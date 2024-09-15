@@ -10,9 +10,13 @@
 # Versions 
 See Bottom for Modded Variants
 
+## Aranara MIDI Renderer Toolkit 1.2
+*Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes.*
+- [Aranara MIDI Renderer Toolkit 1.2.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Renderer%20Toolkit%201.2.html)
+
 ## 2.3.8
 *Added a setting to control audio velocity threshold. This mutes notes that are at or under this value.*
-- [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.3.8.html)
+- [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
 
 ## 2.3.7
 *Fixed a bug where Program Change does not work as intended for Ch 16.*
@@ -32,7 +36,7 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 ## 2.2.0
 *New Audio System Test - First Public Release of 2.X*
-- [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%202.2.2.html)
+- [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.2.2.html)
 
 ## 2.1.0
 *New Color System Test*
@@ -42,32 +46,31 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 ## Aranara MIDI Lite V0.3.5
 *Intended to be lightweight, revamped version of R1.5.5. Block Ct: 1280*
-- [Aranara MIDI Player Lite V0.3.5](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
-- [Aranara MIDI Player Lite V0.3.5 Fancy](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html) 
+- [Aranara MIDI Player Lite V0.3.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
+- [Aranara MIDI Player Lite V0.3.5 Fancy](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html) 
 *Contains slightly more blocks but is more similar to PFA. Block Ct: 1305*
 
 ## R1.5.5
 *Minor Bug Fixes*
-- [Aranara MIDI Player Release 1.5.5](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.5.html)
+- [Aranara MIDI Player Release 1.5.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.5.html)
 
 ## R1.5.4
 *Implemented the Boba Branch and merged it with the main branch. Identical to the latest Boba Update (B1.2)*
-- [Aranara MIDI Player Release 1.5.4](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.4.html)
+- [Aranara MIDI Player Release 1.5.4](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.4.html)
 
 ## R1.5.3
-- [Aranara MIDI Player Release 1.5.3](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3.html)
-- [Aranara MIDI Player Release 1.5.3 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.5.3W.html)
+- [Aranara MIDI Player Release 1.5.3](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.3.html)
+- [Aranara MIDI Player Release 1.5.3 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.3W.html)
 
 ## R1.5.3 - Boba Branch
 *The Boba Branch is an experimental branch where only the audio events and visual data are used during playback, at the cost of not having a notecount...*
-- [Aranara MIDI Player Release 1.5.3 Boba 1.1](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MP%201.5.3%20Boba%201.1.html)
 
 ## R1.4.0
 *Private Development Branch, not really used for R1.5.X*
 
 ## R1.3.2
-- [Aranara MIDI Player Release 1.3.2](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.3.2.html)
-- [Aranara MIDI Player Release 1.3.2 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/Aranara%20MIDI%20Player%20R1.3.2W.html)
+- [Aranara MIDI Player Release 1.3.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.3.2.html)
+- [Aranara MIDI Player Release 1.3.2 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.3.2W.html)
 
 # Aranara MIDI Format Versions
 ## Main Structure

@@ -4,3 +4,9 @@ outdated_events
 
 #backup html files
 backup_builds
+
+#obsolete html files
+outdated_website
+
+#wip folders
+utilities

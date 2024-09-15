@@ -5,10 +5,6 @@
 Most of the rules listed are common sense.
 *Updated 2023.08.14*
 
-## Disclaimer:
-*Note: This page will be replaced with a WIP site that should make it easy on the eyes!*
-[Click here to check the new page!](https://daniferous.github.io/aranara-midi-player-sb3/main/index.html)
-
 ## Summary of Rules and Guidelines:
 1. Provide proper credits.
 2. Modifications are allowed for non-commercial use.
