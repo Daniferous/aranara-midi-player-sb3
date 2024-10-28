@@ -10,9 +10,9 @@
 # Versions 
 See Bottom for Modded Variants
 
-## Aranara MIDI Renderer Toolkit 1.2
+## Aranara MIDI Renderer Toolkit 1.3
 *Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes.*
-- [Aranara MIDI Renderer Toolkit 1.2.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Renderer%20Toolkit%201.2.html)
+- [Aranara MIDI Renderer Toolkit 1.3.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Renderer%20Toolkit%201.3.html)
 
 ## 2.3.8
 *Added a setting to control audio velocity threshold. This mutes notes that are at or under this value.*
@@ -108,19 +108,21 @@ Data Values depend on the Data Type:
 ```
 ## Versions
 - 1.2
-```diff
-+ Added Header "[Aranara]█"
-+ Support for Older Aranara Format MIDIs still allowed
-- Fixed Bug which caused Channel 16 events to be parsed as Channel 1 Events
-- Older Aranara Format MIDIs will still need to be reconverted using the updated conversion tool.
-```
+    ```
+    + Added Header "[Aranara]█"
+    + Support for Older Aranara Format MIDIs still allowed
+    - Fixed Bug which caused Channel 16 events to be parsed as Channel 1 Events
+    - Older Aranara Format MIDIs will still need to be reconverted using the updated conversion tool.
+    ```
 - 1.1
-```diff
-+ Added MIDI Resolution (Typically stored as 768 ticks per half note, or 384 ticks per quarter note)
-+ Added Support for Program Change
-```
+    ```
+    + Added MIDI Resolution (Typically stored as 768 ticks per half note, or 384 ticks per quarter note)
+    + Added Support for Program Change
+    ```
 - 1.0
-Initial Version of Aranara MIDI Format
+    ```
+    Initial Version of Aranara MIDI Format
+    ```
 
 
 [Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)

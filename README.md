@@ -16,11 +16,11 @@
 
 ## Aranara MIDI Renderer Toolkit
 *Aranara MIDI Player for Rendering Use*
-[Aranara MIDI Renderer Toolkit 1.2.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Renderer%20Toolkit%201.2.html)
+- [Aranara MIDI Renderer Toolkit 1.3.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Renderer%20Toolkit%201.3.html)
 
 ## Lurker of the Lost (Aranara MIDI Player Horror Themed Game)
-[Lurker of the Lost - Beta Release 1.1](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html)
-[Learn more about the game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
+- [Lurker of the Lost - Beta Release 1.1](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html)
+- [Learn more about the game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
 
 ## DEMO AraMIDI files:
 [Google Drive](https://drive.google.com/drive/folders/1Ht0WPEoPuxhSwv7b2HEnBm-p9hyN0S-S?usp=sharing)
@@ -30,7 +30,7 @@
 
 ## Split Large AraMIDIs into AraMIDI slices:
 *Update - This can be bypassed by using Aranara MIDI Player 2.X.X or by using Mozilla Firefox.*
-[Converted MIDI Splitter](https://github.com/daniferous/PythonConvertedMIDISplitter)
+- [Converted MIDI Splitter](https://github.com/daniferous/PythonConvertedMIDISplitter)
 
 ## For questions or inquiries, feel free to access below:
 1. [Daniferous Discord Server](https://discord.gg/kTD8y6YDjJ) 
