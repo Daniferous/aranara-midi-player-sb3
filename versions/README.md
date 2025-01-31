@@ -10,9 +10,9 @@
 # Versions 
 See Bottom for Modded Variants
 
-## Aranara MIDI Renderer Toolkit 1.3
+## Aranara MIDI Render Toolkit 1.4
 *Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes.*
-- [Aranara MIDI Renderer Toolkit 1.3.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Renderer%20Toolkit%201.3.html)
+- [Aranara MIDI Render Toolkit 1.4.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.4.html)
 
 ## 2.3.8
 *Added a setting to control audio velocity threshold. This mutes notes that are at or under this value.*
