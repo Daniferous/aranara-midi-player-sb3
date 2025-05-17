@@ -37,6 +37,10 @@ I... I don't know, really. I am too busy and am behind on a lot of work. In shor
 
 # Changelog
 
+## Beta 1.2
+- Added a working settings menu.
+- Fixed some crucial bugs, such as the program crashing out if you press Z rapidly in certain parts.
+
 ## Beta 1.1
 - The song list menu can now be navigated by both arrow keys or the traditional (mouse) method.
 - Fixed some animations.
@@ -52,3 +56,4 @@ I... I don't know, really. I am too busy and am behind on a lot of work. In shor
 - Most of the main story is done.
 
 [Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
+

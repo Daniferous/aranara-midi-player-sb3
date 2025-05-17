@@ -10,9 +10,10 @@
 # Versions 
 See Bottom for Modded Variants
 
-## Aranara MIDI Render Toolkit 1.4
-*Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes.*
-- [Aranara MIDI Render Toolkit 1.4.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.4.html)
+## Aranara MIDI Render Toolkit 1.5
+*Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes. Added a setting to limit maximum audible note lengths to 1 bar. Works effectively for "normal" tempo MIDIs (or MIDIs that have tempos typically within 60~200.)*
+- [Aranara MIDI Render Toolkit 1.5.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.5.html)
+
 
 ## 2.3.8
 *Added a setting to control audio velocity threshold. This mutes notes that are at or under this value.*
@@ -65,7 +66,7 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 ## R1.5.3 - Boba Branch
 *The Boba Branch is an experimental branch where only the audio events and visual data are used during playback, at the cost of not having a notecount...*
 
-## R1.4.0
+## R1.5.0
 *Private Development Branch, not really used for R1.5.X*
 
 ## R1.3.2
@@ -108,21 +109,21 @@ Data Values depend on the Data Type:
 ```
 ## Versions
 - 1.2
-    ```
-    + Added Header "[Aranara]█"
-    + Support for Older Aranara Format MIDIs still allowed
-    - Fixed Bug which caused Channel 16 events to be parsed as Channel 1 Events
-    - Older Aranara Format MIDIs will still need to be reconverted using the updated conversion tool.
-    ```
+```
++ Added Header "[Aranara]█"
++ Support for Older Aranara Format MIDIs still allowed
+- Fixed Bug which caused Channel 16 events to be parsed as Channel 1 Events
+- Older Aranara Format MIDIs will still need to be reconverted using the updated conversion tool.
+```
 - 1.1
-    ```
-    + Added MIDI Resolution (Typically stored as 768 ticks per half note, or 384 ticks per quarter note)
-    + Added Support for Program Change
-    ```
+```
++ Added MIDI Resolution (Typically stored as 768 ticks per half note, or 384 ticks per quarter note)
++ Added Support for Program Change
+```
 - 1.0
-    ```
-    Initial Version of Aranara MIDI Format
-    ```
+```
+Initial Version of Aranara MIDI Format
+```
 
 
 [Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
