@@ -3,16 +3,12 @@
 
 **Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
-## Disclaimer:
-*Note: This page will be replaced with a WIP site that should make it easy on the eyes!*
-[Click here to check the new page!](https://daniferous.github.io/aranara-midi-player-sb3/main/index.html)
-
 # Versions 
 See Bottom for Modded Variants
 
-## Aranara MIDI Render Toolkit 1.5
-*Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes. Added a setting to limit maximum audible note lengths to 1 bar. Works effectively for "normal" tempo MIDIs (or MIDIs that have tempos typically within 60~200.)*
-- [Aranara MIDI Render Toolkit 1.5.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.5.html)
+## Aranara MIDI Render Toolkit 1.6
+*Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes. Added a setting to limit maximum audible note lengths to 1 bar. Works effectively for "normal" tempo MIDIs (or MIDIs that have tempos typically within 60~200.) The resolution setting now only impacts the visuals and not the audio.*
+- [Aranara MIDI Render Toolkit 1.6.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.6.html)
 
 
 ## 2.3.8
@@ -91,6 +87,7 @@ E: Tempo Change
 F: Track Header
 ```
 Data Values depend on the Data Type:
+*Note: All values are in hexadecimal.*
 1. Note Events
 ```
 [Pitch - 2 chars][Velocity - 2 chars][Channel - 1 char][Tick - Variable][Separator][Length - Variable][Separator]
@@ -108,22 +105,86 @@ Data Values depend on the Data Type:
 [Track Value - Variable][Separator]
 ```
 ## Versions
-- 1.2
+1.2
 ```
 + Added Header "[Aranara]█"
 + Support for Older Aranara Format MIDIs still allowed
 - Fixed Bug which caused Channel 16 events to be parsed as Channel 1 Events
 - Older Aranara Format MIDIs will still need to be reconverted using the updated conversion tool.
 ```
-- 1.1
+1.1
 ```
 + Added MIDI Resolution (Typically stored as 768 ticks per half note, or 384 ticks per quarter note)
 + Added Support for Program Change
 ```
-- 1.0
+1.0
 ```
 Initial Version of Aranara MIDI Format
 ```
 
+# Faelei MIDI Format Versions
+*Generally identical to Aranara MIDI, but contains support for MIDI CC and Pitch Bends.*
+## Main Structure
+
+Structure is as follows:
+```
+[Data Type][Data Value/s]*
+*Variable Length Data Values are concluded with a separator, "|".
+```
+Data Type can be as follows:
+```
+0 - 7: First digit of note pitch, which ranges from 00 to 7F.
+8 - A: Reserved
+B: Pitch Bends
+C: Control Change
+D: Program Change
+E: Tempo Change
+F: Track Header
+```
+Data Values depend on the Data Type:
+*Note: All values are in hexadecimal.*
+1. Note Events
+```
+[Pitch - 2 chars][Velocity - 2 chars][Channel - 1 char][Tick - Variable][Separator][Length - Variable][Separator]
+```
+2. Program Change
+```
+[Patch Value - 2 chars][Channel - 1 char][Tick - Variable][Separator]
+```
+3. Tempo Change
+```
+[Microseconds per Beat - Variable][Separator][Tick - Variable][Separator]
+```
+4. Track Header
+```
+[Track Value - Variable][Separator]
+```
+5. Control Change
+```
+[Controller - 2 chars][Controller Value - 2 chars][Channel - 1 char][Tick - Variable][Separator]
+```
+6. Pitch Bends
+```
+[Pitch Bend Value 4 chars][Channel - 1 char][Tick - Variable][Separator]
+```
+## Versions
+1.0 (AranaraMIDI 1.2 Modded)
+```
++ Added Header "[Faelei]█"
++ Adaptive PPQ/TPQ. Converted Faelei MIDIs may either have 768, 960, or 1024 PPQ depending on the original MIDI's PPQ. See PPQ rule below.
+- Possible Support for Aranara MIDIs in some Faelei MIDI Players. Since Faelei MIDI is an extension to Aranara MIDIs, it is possible to run Aranara MIDIs.
+```
+## New MIDI PPQ Rules
+### 1. All Converted MIDIs will have a PPQ of 768.
+- This is a 2x increase in resolution compared to the Aranara MIDI format of 384 PPQ (Pulses per Quarter note) or 768 TPH (Ticks per Half-Note).
+- There are exemptions listed below.
+### 2. MIDIs with a PPQ divisible by 120 will have a PPQ of 1920.
+- This is to accomodate quintuplet notes/divisions.
+- Most MIDIs are generally running on a resolution at this range.
+### 3. MIDIs with a PPQ divisible by either any power of 2 and 5 will have a PPQ of 1024.
+- This only applies to MIDIs that either have a PPQ of 1000, 2048, 2560, etc.
+### Disclaimer
+- It is worth noting that this system is imperfect. There may be new conditions, such as allowing any custom PPQ/resolutions to not conform to either of the rules provided that it falls within an "acceptable range."
+- The acceptable range will be between 512 and 1536. Larger PPQs will have to be rounded down.
 
 [Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
