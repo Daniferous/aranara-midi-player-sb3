@@ -16,7 +16,7 @@
 
 ## Aranara MIDI Render Toolkit
 *Aranara MIDI Player for Rendering Use*
-- [Aranara MIDI Render Toolkit 1.5.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.5.html)
+- [Aranara MIDI Render Toolkit 1.6.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.6.html)
 
 ## Lurker of the Lost (Aranara MIDI Player Horror Themed Game)
 - [Lurker of the Lost - Beta Release 1.2](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html)
