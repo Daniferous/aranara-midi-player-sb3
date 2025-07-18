@@ -1,7 +1,7 @@
 # Aranara MIDI Players
 *Scratch-Based MIDI Player that is named Aranara because of my interest in Genshin Impact. This has nothing to do with programs that play MIDIs in any Genshin Impact instruments!*
 
-**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
+>**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
 # Lurker of the Lost
 *Finally, it has been a while, but my experiment is ready for public testing... I hope?*

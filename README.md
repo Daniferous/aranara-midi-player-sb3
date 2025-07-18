@@ -1,7 +1,7 @@
 # Aranara MIDI Players
 *Scratch-Based MIDI Player that is named Aranara because of my interest in Genshin Impact. This has nothing to do with programs that play MIDIs in any Genshin Impact instruments!*
 
-**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
+>**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
 ## Here are the latest and most updated versions of my (Danify) MIDI Players!
 *Older Builds have been transferred to a new Google Drive repository.*
@@ -12,7 +12,7 @@
 4. [Aranara MIDI Player Lite V0.3.5 Fancy](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html)
 5. [Aranara MIDI Player Release 1.5.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.5.html)
 
-[Click HERE for More Versions](https://daniferous.github.io/aranara-midi-player-sb3/versions)
+> [Click HERE for More Versions](https://daniferous.github.io/aranara-midi-player-sb3/versions)
 
 ## Aranara MIDI Render Toolkit
 *Aranara MIDI Player for Rendering Use*

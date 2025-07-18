@@ -20,8 +20,11 @@ However, consider including the asset credits provided in the [original Scratch 
 
 ## 2. Modification
 Anyone is encouraged to make modifications to any of my MIDI players and any of its assets given that the intention is for educational and recreational purposes. **Any and all modifications shall include proper creditation as stated in the first rule.**
+
 ### 2.1 Regarding Project Assets
 Anyone can adopt any of my MIDI Players and its project assets to their own creations provided that it follows the first and third rules. __Paywalls are not allowed in any modification or project containing any of my project assets.__
+
+>The "Celestial MIDI Renderer" parody project is an example of such modification. Although it may contain "paywalled" assets, it does not *actually* require purchases. It does not even have a "checkout" page. The [README.md](https://daniferous.github.io/celestialmidirender/meta/) for *that* project should tell more information. (If the link above does not exist, it has not been published yet.)
 
 ## 3. Usage
 Anyone can use any of my MIDI players and any of its project assets for educational and recreational purposes. That being said, profiting from my MIDI Players, or modified variations of my MIDI Players are not allowed.
