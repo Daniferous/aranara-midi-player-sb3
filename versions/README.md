@@ -23,6 +23,7 @@ See Bottom for Modded Variants
 
 ## 2.3.3
 *Revamped Aranara MIDI Format!*
+
 ### Please Note!
 A crucial update has been made to the Aranara MIDI Format. Thus, any future Aranara MIDI Format Projects will require any new Aranara MIDIs made with the updated Modded MIDIParser Converter Tool!
 
@@ -88,22 +89,28 @@ F: Track Header
 ```
 Data Values depend on the Data Type:
 >*Note: All values are in hexadecimal.*
+
 1. Note Events
 ```
 [Pitch - 2 chars][Velocity - 2 chars][Channel - 1 char][Tick - Variable][Separator][Length - Variable][Separator]
 ```
+
 2. Program Change
 ```
 [Patch Value - 2 chars][Channel - 1 char][Tick - Variable][Separator]
 ```
+
 3. Tempo Change
 ```
 [Microseconds per Beat - Variable][Separator][Tick - Variable][Separator]
 ```
+
 4. Track Header
 ```
 [Track Value - Variable][Separator]
 ```
+
+
 ## Versions
 ### 1.2
 ```
@@ -112,11 +119,13 @@ Data Values depend on the Data Type:
 - Fixed Bug which caused Channel 16 events to be parsed as Channel 1 Events
 - Older Aranara Format MIDIs will still need to be reconverted using the updated conversion tool.
 ```
+
 ### 1.1
 ```
 + Added MIDI Resolution (Typically stored as 768 ticks per half note, or 384 ticks per quarter note)
 + Added Support for Program Change
 ```
+
 ### 1.0
 ```
 Initial Version of Aranara MIDI Format
@@ -144,38 +153,46 @@ E: Tempo Change
 F: Track Header
 ```
 Data Values depend on the Data Type:
-*Note: All values are in hexadecimal.*
+>*Note: All values are in hexadecimal.*
+
 1. Note Events
 ```
 [Pitch - 2 chars][Velocity - 2 chars][Channel - 1 char][Tick - Variable][Separator][Length - Variable][Separator]
 ```
+
 2. Program Change
 ```
 [Patch Value - 2 chars][Channel - 1 char][Tick - Variable][Separator]
 ```
+
 3. Tempo Change
 ```
 [Microseconds per Beat - Variable][Separator][Tick - Variable][Separator]
 ```
+
 4. Track Header
 ```
 [Track Value - Variable][Separator]
 ```
+
 5. Control Change
 ```
 [Controller - 2 chars][Controller Value - 2 chars][Channel - 1 char][Tick - Variable][Separator]
 ```
+
 6. Pitch Bends
 ```
 [Pitch Bend Value 4 chars][Channel - 1 char][Tick - Variable][Separator]
 ```
+
 ## Versions
-1.0 (AranaraMIDI 1.2 Modded)
+### 1.0 (AranaraMIDI 1.2 Modded)
 ```
 + Added Header "[Faelei]█"
 + Adaptive PPQ/TPQ. Converted Faelei MIDIs may either have 768, 960, or 1024 PPQ depending on the original MIDI's PPQ. See PPQ rule below.
 - Possible Support for Aranara MIDIs in some Faelei MIDI Players. Since Faelei MIDI is an extension to Aranara MIDIs, it is possible to run Aranara MIDIs.
 ```
+
 ## New MIDI PPQ Rules
 
 ### 1. All Converted MIDIs will have a PPQ of 768.

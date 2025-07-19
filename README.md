@@ -4,7 +4,6 @@
 >**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
 ## Here are the latest and most updated versions of my (Danify) MIDI Players!
-*Older Builds have been transferred to a new Google Drive repository.*
 
 1. [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
 2. [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.2.2.html)
@@ -20,7 +19,8 @@
 
 ## Lurker of the Lost (Aranara MIDI Player Horror Themed Game)
 - [Lurker of the Lost - Beta Release 1.2](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html)
-- [Learn more about the game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
+
+>[Click here to learn more about the game here.](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
 
 ## DEMO AraMIDI files:
 [Google Drive](https://drive.google.com/drive/folders/1Ht0WPEoPuxhSwv7b2HEnBm-p9hyN0S-S?usp=sharing)

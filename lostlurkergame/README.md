@@ -4,7 +4,7 @@
 >**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
 # Lurker of the Lost
-*Finally, it has been a while, but my experiment is ready for public testing... I hope?*
+>*Finally, it has been a while, but my experiment is ready for public testing... I hope?*
 
 Out of all the things to make a horror game from, why a MIDI Player?
 Well, that's the thing. This was not meant to happen. Aranara MIDI Player was supposed to be a normal build. But somehow, something bad happened. Perhaps you downloaded a MIDI file that should not be downloaded, or the version you retrieved is not from the official [Daniferous Discord Server](https://discord.gg/kTD8y6YDjJ), or that you just got very unlucky.
@@ -33,7 +33,8 @@ I... I don't know, really. I am too busy and am behind on a lot of work. In shor
 
 # Play the game:
 - [Github Link](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html) (No downloads yet... until I make a standalone EXE file at RELEASE Version.)
-- Scratch Link (Not available... until I add an option that can disable those spooky sounds that are probably no longer allowed... yikes)
+
+>Note: This project will no longer be uploaded to Scratch. If it is as good as a game gets, I might host it elsewhere, like Gamejolt for example.
 
 # Changelog
 
