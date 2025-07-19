@@ -3,13 +3,25 @@
 
 >**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
-# Versions 
-See Bottom for Modded Variants
+# Aranara MIDI Render Toolkit Versions
 
-## Aranara MIDI Render Toolkit 1.6
+## 1.6
 *Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes. Added a setting to limit maximum audible note lengths to 1 bar. Works effectively for "normal" tempo MIDIs (or MIDIs that have tempos typically within 60~200.) The resolution setting now only impacts the visuals and not the audio.*
 - [Aranara MIDI Render Toolkit 1.6.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.6.html)
 
+## 1.5
+*Added option to limit audible note lengths to a maximum of 1 beat.*
+
+## 1.4
+*Fixed Palette Bug persisting in versions prior. This does not affect the AMP series.*
+
+## Faelei MOD Release 3
+*Fork of Aranara MIDI Render Toolkit Version 1.6. May not work on all browsers but might occasionally work.*
+> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei). Please note: This branch README.md has yet to be updated.
+
+- [Aranara MIDI Render Toolkit - Faelei MOD Release 3](https://daniferous.github.io/aranara-midi-player-sb3/faelei/AMRT%201.5%20Faelei%20MOD%20R3.html)
+
+# Aranara MIDI Player Versions 
 
 ## 2.3.8
 *Added a setting to control audio velocity threshold. This mutes notes that are at or under this value.*
@@ -199,12 +211,12 @@ Data Values depend on the Data Type:
 - This is a 2x increase in resolution compared to the Aranara MIDI format of 384 PPQ (Pulses per Quarter note) or 768 TPH (Ticks per Half-Note).
 - There are exemptions listed below.
 
-### 2. MIDIs with a PPQ divisible by 120 will have a PPQ of 1920.
+### 2. MIDIs with a PPQ divisible by 120 will have a PPQ of 960.
 - This is to accomodate quintuplet notes/divisions.
-- Most MIDIs are generally running on a resolution at this range.
+- Most MIDIs are generally running on a resolution at this range, especially MIDIs made with FL Studio (PC).
 
-### 3. MIDIs with a PPQ divisible by either any power of 2 and 5 will have a PPQ of 1024.
-- This only applies to MIDIs that either have a PPQ of 1000, 2048, 2560, etc.
+### 3. MIDIs with a PPQ divisible by 128 but greater than 768 will have a PPQ of 1024.
+- This only applies to MIDIs that either have a PPQ of 2048, 2560, 4096, etc.
 
 > ### Disclaimer
 > - It is worth noting that this system is imperfect. There may be new conditions, such as allowing any custom PPQ/resolutions to not conform to either of the rules provided that it falls within an "acceptable range."
