@@ -3,7 +3,7 @@
 
 # Rules and Guidelines
 Most of the rules listed are common sense.
-*Updated 2023.08.14*
+*Updated 2025.07.20*
 
 ## Summary of Rules and Guidelines:
 1. Provide proper credits.
@@ -16,7 +16,9 @@ Most of the rules listed are common sense.
 ## 1. Credits
 Provide proper creditation for using any of my (daniferous/Eden/OJG101) MIDI Players. Credits can be as concise as mentioning my [Scratch Profile](https://scratch.mit.edu/users/OjasnGamer101/) and/or my [YouTube Channel](https://www.youtube.com/c/DanieZuha). 
 ### 1.1 Regarding Asset Credits
-However, consider including the asset credits provided in the [original Scratch project link](https://scratch.mit.edu/projects/554156777/) as assets, such as sounds, were created by other people. If you use assets found in any of my MIDI Players that are made by other people, credit those people in your modifications and/or projects.
+However, please consider including the asset credits provided in the [original Scratch project link](https://scratch.mit.edu/projects/554156777/) as assets, such as sounds, were created by other people. If you use assets found in any of my MIDI Players that are made by other people, credit those people in your modifications and/or projects.
+
+>Please click [here](https://daniferous.github.io/aranara-midi-player-sb3/credits) for the full credits.
 
 ## 2. Modification
 Anyone is encouraged to make modifications to any of my MIDI players and any of its assets given that the intention is for educational and recreational purposes. **Any and all modifications shall include proper creditation as stated in the first rule.**
@@ -61,4 +63,18 @@ Usage of alternate accounts to try and gain access to Insider/Private Builds or 
 # By using any of my MIDI Players, you agree to these rules and guidelines.
 While I may not be able to moderate content anyone has made, I have no responsibility for anyone's actions. Should your Scratch account get taken down for violating policies, you are only to blame. **Follow rules and stay safe.**
 
-[Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
+---
+
+>[Back to top](https://daniferous.github.io/aranara-midi-player-sb3/guidelines)
+
+# Navigation Portal
+
+>[Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
+
+>[Aranara MIDI Programs and MIDI Specifications](https://daniferous.github.io/aranara-midi-player-sb3/versions)
+
+>[Lurker of the Lost Game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
+
+>[Guidelines for Proper Usage](https://daniferous.github.io/aranara-midi-player-sb3/guidelines)
+
+>[Program Credits](https://daniferous.github.io/aranara-midi-player-sb3/credits)

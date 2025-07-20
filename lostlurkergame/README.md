@@ -56,5 +56,19 @@ I... I don't know, really. I am too busy and am behind on a lot of work. In shor
 - More of a mod than a standalone game...
 - Most of the main story is done.
 
-[Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
+---
+
+>[Back to top](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
+
+# Navigation Portal
+
+>[Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
+
+>[Aranara MIDI Programs and MIDI Specifications](https://daniferous.github.io/aranara-midi-player-sb3/versions)
+
+>[Lurker of the Lost Game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
+
+>[Guidelines for Proper Usage](https://daniferous.github.io/aranara-midi-player-sb3/guidelines)
+
+>[Program Credits](https://daniferous.github.io/aranara-midi-player-sb3/credits)
 

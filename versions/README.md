@@ -222,4 +222,18 @@ Data Values depend on the Data Type:
 > - It is worth noting that this system is imperfect. There may be new conditions, such as allowing any custom PPQ/resolutions to not conform to either of the rules provided that it falls within an "acceptable range."
 > - The acceptable range will be between 512 and 1536. Larger PPQs will have to be rounded down.
 
-[Return to Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
+---
+
+>[Back to top](https://daniferous.github.io/aranara-midi-player-sb3/versions)
+
+# Navigation Portal
+
+>[Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
+
+>[Aranara MIDI Programs and MIDI Specifications](https://daniferous.github.io/aranara-midi-player-sb3/versions)
+
+>[Lurker of the Lost Game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
+
+>[Guidelines for Proper Usage](https://daniferous.github.io/aranara-midi-player-sb3/guidelines)
+
+>[Program Credits](https://daniferous.github.io/aranara-midi-player-sb3/credits)

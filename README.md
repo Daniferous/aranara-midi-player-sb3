@@ -3,7 +3,7 @@
 
 >**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
-## Here are the latest and most updated versions of my (Danify) MIDI Players!
+## Aranara MIDI Player
 
 1. [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
 2. [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.2.2.html)
@@ -38,3 +38,19 @@
 
 ## For rules and guidelines in using Aranara MIDI Players (and other creations made by me), feel free to access below:
 [Rules and Guidelines - 2023.08.14 Revision](https://daniferous.github.io/aranara-midi-player-sb3/guidelines)
+
+---
+
+>[Back to top](https://daniferous.github.io/aranara-midi-player-sb3)
+
+# Navigation Portal
+
+>[Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
+
+>[Aranara MIDI Programs and MIDI Specifications](https://daniferous.github.io/aranara-midi-player-sb3/versions)
+
+>[Lurker of the Lost Game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
+
+>[Guidelines for Proper Usage](https://daniferous.github.io/aranara-midi-player-sb3/guidelines)
+
+>[Program Credits](https://daniferous.github.io/aranara-midi-player-sb3/credits)
