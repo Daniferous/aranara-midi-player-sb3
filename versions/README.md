@@ -19,7 +19,7 @@
 *Fork of Aranara MIDI Render Toolkit Version 1.6. May not work on all browsers but might occasionally work.*
 > This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei). Please note: This branch README.md has yet to be updated.
 
-- [Aranara MIDI Render Toolkit - Faelei MOD Release 3](https://daniferous.github.io/aranara-midi-player-sb3/faelei/AMRT%201.5%20Faelei%20MOD%20R3.html)
+- [Aranara MIDI Render Toolkit - Faelei MOD Release 3](https://daniferous.github.io/aranara-midi-player-sb3/faelei/AMRT%201.6%20Faelei%20MOD%20R3.html)
 
 # Aranara MIDI Player Versions 
 
@@ -198,14 +198,48 @@ Data Values depend on the Data Type:
 ```
 
 ## Versions
+### 1.1
+```
++ Converted PPQ/TPQ is now identical to the imported MIDI PPQ if the PPQ value is at or below 1536.
++ Converted PPQ will undergo repeated division by 2 until it is at or below 1536.
+```
+
 ### 1.0 (AranaraMIDI 1.2 Modded)
 ```
 + Added Header "[Faelei]█"
-+ Adaptive PPQ/TPQ. Converted Faelei MIDIs may either have 768, 960, or 1024 PPQ depending on the original MIDI's PPQ. See PPQ rule below.
++ Adaptive PPQ/TPQ. Converted Faelei MIDIs may either have 768, 960, or 1024 PPQ depending on the original MIDI's PPQ. See PPQ rule (Faelei 1.0) below.
 - Possible Support for Aranara MIDIs in some Faelei MIDI Players. Since Faelei MIDI is an extension to Aranara MIDIs, it is possible to run Aranara MIDIs.
 ```
 
-## New MIDI PPQ Rules
+## Faelei MIDI PPQ Rules - Version 1.1
+
+### 1. All Converted MIDIs will retain their PPQ.
+- This allows MIDIs with unusual/low PPQ values to be retained. For example, a MIDI with a resolution of 96 PPQ will no longer be converted to a 768 PPQ Faelei MIDI, reducing the converted Faelei MIDI file size by a small amount.
+- This does not apply to MIDIs with large PPQs (see below).
+
+### 2. For MIDIs with PPQ values greater than 1536, it will be brought down to a value at or under 1536.
+- This is done by dividing the PPQ value by 2 multiple times until it is at or under 1536. For example, a MIDI with an original PPQ value of either 1920 or 3840 will be brought down to 960.
+- In the updated Modded Faelei MIDI Parser, the "repeated division" is simplified into a single calculation seen below: 
+
+<div style="text-align: center;">
+
+$F_{aeleiTPQ}=\frac{O_{riginalTPQ}}{2^{\operatorname{ceil}\left(\log_{2}\left(\frac{O_{riginalTPQ}}{1536}\right)\right)}}$
+
+$Where:$
+
+$O_{riginalTPQ}$ - The PPQ Value of the Imported MIDI
+
+$F_{aeleiTPQ}$ - The PPQ Value of the Converted Faelei MIDI
+
+</div>
+
+- Thus, with a division factor of 2, <u>there is minimal loss in data accuracy compared to if it were a factor of 5 or 10</u>. However, issues may arise if a MIDI has a PPQ that is either odd-numbered or is not a multiple of 2<sup>n</sup>, with n being the number of divisions. This should not be an issue for MIDIs having common PPQ values.
+
+- This new system is much simpler than the previous system since only a single logic is required (checking if the PPQ value is greater than 1536 to divide repeatedly) and allows most MIDIs to retain its resolution after conversion.
+
+## Faelei MIDI PPQ Rules - Version 1.0
+
+> Disclaimer: This has been superceded by a new MIDI PPQ System in Faelei 1.1.
 
 ### 1. All Converted MIDIs will have a PPQ of 768.
 - This is a 2x increase in resolution compared to the Aranara MIDI format of 384 PPQ (Pulses per Quarter note) or 768 TPH (Ticks per Half-Note).
