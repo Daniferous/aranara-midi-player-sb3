@@ -3,11 +3,21 @@
 
 >**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
+# Faelei MIDI Render Toolkit Versions
+
+## Release 4 (AMRT 1.6.4)
+*Fork of Aranara MIDI Render Toolkit Version 1.6. May not work on all browsers but might occasionally work.*
+
+> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+
+> [Faelei MIDI Render Toolkit 1.6.4](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.4.html)
+
+
 # Aranara MIDI Render Toolkit Versions
 
 ## 1.6
 *Fork of AMP 2.3.8. Contains advanced features, such as selective audio channel rendering and customizable color palettes. Added a setting to limit maximum audible note lengths to 1 bar. Works effectively for "normal" tempo MIDIs (or MIDIs that have tempos typically within 60~200.) The resolution setting now only impacts the visuals and not the audio.*
-- [Aranara MIDI Render Toolkit 1.6.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.6.html)
+> [Aranara MIDI Render Toolkit 1.6.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.6.html)
 
 ## 1.5
 *Added option to limit audible note lengths to a maximum of 1 beat.*
@@ -15,17 +25,20 @@
 ## 1.4
 *Fixed Palette Bug persisting in versions prior. This does not affect the AMP series.*
 
-## Faelei MOD Release 3
-*Fork of Aranara MIDI Render Toolkit Version 1.6. May not work on all browsers but might occasionally work.*
-> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei). Please note: This branch README.md has yet to be updated.
+# Faelei MIDI Player Versions
 
-- [Aranara MIDI Render Toolkit - Faelei MOD Release 3](https://daniferous.github.io/aranara-midi-player-sb3/faelei/AMRT%201.6%20Faelei%20MOD%20R3.html)
+## Release 1.0.0 (AMP 2.3.8)
+*Fork of AMP 2.3.8. May not work on all browsers but might occasionally work.*
+
+> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+
+> [Faelei MIDI Player 1.0.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.0.html)
 
 # Aranara MIDI Player Versions 
 
 ## 2.3.8
 *Added a setting to control audio velocity threshold. This mutes notes that are at or under this value.*
-- [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
+> [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
 
 ## 2.3.7
 *Fixed a bug where Program Change does not work as intended for Ch 16.*
@@ -46,7 +59,7 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 ## 2.2.0
 *New Audio System Test - First Public Release of 2.X*
-- [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.2.2.html)
+> [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.2.2.html)
 
 ## 2.1.0
 *New Color System Test*
@@ -56,21 +69,24 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 ## Aranara MIDI Lite V0.3.5
 *Intended to be lightweight, revamped version of R1.5.5. Block Ct: 1280*
-- [Aranara MIDI Player Lite V0.3.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
-- [Aranara MIDI Player Lite V0.3.5 Fancy](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html) 
+> [Aranara MIDI Player Lite V0.3.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5.html)
+
+> [Aranara MIDI Player Lite V0.3.5 Fancy](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20Lite%20v0.3.5%20-%20Fancy.html) 
+
 >*The "Fancy" edition contains slightly more blocks but is more similar in aesthetics to PFA. Block Ct: 1305*
 
 ## R1.5.5
 *Minor Bug Fixes*
-- [Aranara MIDI Player Release 1.5.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.5.html)
+> [Aranara MIDI Player Release 1.5.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.5.html)
 
 ## R1.5.4
 *Implemented the Boba Branch and merged it with the main branch. Identical to the latest Boba Update (B1.2)*
-- [Aranara MIDI Player Release 1.5.4](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.4.html)
+> [Aranara MIDI Player Release 1.5.4](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.4.html)
 
 ## R1.5.3
-- [Aranara MIDI Player Release 1.5.3](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.3.html)
-- [Aranara MIDI Player Release 1.5.3 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.3W.html)
+> [Aranara MIDI Player Release 1.5.3](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.3.html)
+
+> [Aranara MIDI Player Release 1.5.3 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.3W.html)
 
 ## R1.5.3 - Boba Branch
 *The Boba Branch is an experimental branch where only the audio events and visual data are used during playback, at the cost of not having a notecount...*
@@ -79,10 +95,14 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 *Private Development Branch, not really used for R1.5.X*
 
 ## R1.3.2
-- [Aranara MIDI Player Release 1.3.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.3.2.html)
-- [Aranara MIDI Player Release 1.3.2 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.3.2W.html)
+> [Aranara MIDI Player Release 1.3.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.3.2.html)
+
+> [Aranara MIDI Player Release 1.3.2 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.3.2W.html)
 
 # Aranara MIDI Format Versions
+
+> Disclaimer: The term "PPQ" (Pulses Per Quart) and "TPQ" (Ticks Per Quart) are used here interchangeably.
+
 ## Main Structure
 
 Structure is as follows:
@@ -145,7 +165,9 @@ Initial Version of Aranara MIDI Format
 
 # Faelei MIDI Format Versions
 *Generally identical to Aranara MIDI, but contains support for MIDI CC and Pitch Bends.*
-> *There are currently no "Faelei MIDI Format" Compliant Renderers ready for public view. One build of a modified Aranara MIDI Render Toolkit program with the capability of utilising Faelei MIDIs is in development, with the major drawback being the unreliability of the MIDI Synth (Yes, the actual MIDI Synth on your computer) working on some browsers due to permissions and restrictions.*
+> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.0.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.4.html) are now available. To convert your MIDIs into compatible Faelei MIDIs, you can visit [the Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+
+> Disclaimer: The term "PPQ" (Pulses Per Quart) and "TPQ" (Ticks Per Quart) are used here interchangeably.
 
 ## Main Structure
 
@@ -219,11 +241,13 @@ Data Values depend on the Data Type:
 
 ### 2. For MIDIs with PPQ values greater than 1536, it will be brought down to a value at or under 1536.
 - This is done by dividing the PPQ value by 2 multiple times until it is at or under 1536. For example, a MIDI with an original PPQ value of either 1920 or 3840 will be brought down to 960.
-- In the updated Modded Faelei MIDI Parser, the "repeated division" is simplified into a single calculation seen below: 
+- In the updated Modded Faelei MIDI Parser, the following is the algorithm used to determine the PPQ/TPQ value used in the converted Faelei MIDI.
 
 <div style="text-align: center;">
 
-$F_{aeleiTPQ}=\frac{O_{riginalTPQ}}{2^{\operatorname{ceil}\left(\log_{2}\left(\frac{O_{riginalTPQ}}{1536}\right)\right)}}$
+${\operatorname{ For }}\ \ O_{riginalTPQ}>1536:\ F_{aeleiTPQ}=\frac{O_{riginalTPQ}}{2^{\operatorname{ceil}\left(\log_{2}\left(\frac{O_{riginalTPQ}}{1536}\right)\right)}}$
+
+${\operatorname{ For }}\ \ 1\le O_{riginalTPQ}\le1536:\ \ F_{aeleiTPQ}=O_{riginalTPQ}$
 
 $Where:$
 
