@@ -7,7 +7,7 @@
 
 > [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
 
-> [Faelei MIDI Player 1.0.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.0.html) (This version uses [Faelei MIDI Files](https://github.com/Daniferous/MidiParser/tree/Faelei).)
+> [Faelei MIDI Player 1.0.1](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.1.html) (This version uses [Faelei MIDI Files](https://github.com/Daniferous/MidiParser/tree/Faelei).)
 
 > [Click HERE for More Versions](https://daniferous.github.io/aranara-midi-player-sb3/versions)
 

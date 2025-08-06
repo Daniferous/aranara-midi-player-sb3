@@ -6,7 +6,9 @@
 # Faelei MIDI Render Toolkit Versions
 
 ## Release 4 (AMRT 1.6.4)
-*Fork of Aranara MIDI Render Toolkit Version 1.6. May not work on all browsers but might occasionally work.*
+*Fork of Aranara MIDI Render Toolkit Version 1.6. May not work on all browsers but might occasionally work. Replaces the option to "limit audible note lengths to a maximum of 1 beat" from AMRT 1.5 to instead the option to enable Fast Audio Mode which makes the audio player nearly immune to Polyphony Spikes or "Polyphony Nukes."*
+
+*Fixed Visual Bug that has persisted since early AMP versions.*
 
 > This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
@@ -28,11 +30,13 @@
 # Faelei MIDI Player Versions
 
 ## Release 1.0.0 (AMP 2.3.8)
-*Fork of AMP 2.3.8. May not work on all browsers but might occasionally work.*
+*Fork of AMP 2.3.8. May not work on all browsers but might occasionally work. Has the Fast Audio Mode Setting from FMRT 1.6.4 enabled by default.*
+
+*Fixed Visual Bug that has persisted since early AMP versions.*
 
 > This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Player 1.0.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.0.html)
+> [Faelei MIDI Player 1.0.1](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.1.html)
 
 # Aranara MIDI Player Versions 
 
@@ -165,7 +169,7 @@ Initial Version of Aranara MIDI Format
 
 # Faelei MIDI Format Versions
 *Generally identical to Aranara MIDI, but contains support for MIDI CC and Pitch Bends.*
-> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.0.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.4.html) are now available. To convert your MIDIs into compatible Faelei MIDIs, you can visit [the Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.1.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.4.html) are now available. To convert your MIDIs into compatible Faelei MIDIs, you can visit [the Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
 > Disclaimer: The term "PPQ" (Pulses Per Quart) and "TPQ" (Ticks Per Quart) are used here interchangeably.
 
