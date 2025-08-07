@@ -89,6 +89,8 @@ This has been very long, oops...
 
 >[Back to top](https://daniferous.github.io/aranara-midi-player-sb3/credits)
 
+---
+
 # Navigation Portal
 
 >[Main Page](https://daniferous.github.io/aranara-midi-player-sb3)

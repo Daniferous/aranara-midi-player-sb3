@@ -7,7 +7,7 @@
 
 > [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
 
-> [Faelei MIDI Player 1.0.1](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.1.html) (This version uses [Faelei MIDI Files](https://github.com/Daniferous/MidiParser/tree/Faelei).)
+> [Faelei MIDI Player 1.0.2](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.2.html) (This version uses [Faelei MIDI Files](https://github.com/Daniferous/MidiParser/tree/Faelei).)
 
 > [Click HERE for More Versions](https://daniferous.github.io/aranara-midi-player-sb3/versions)
 
@@ -15,7 +15,7 @@
 *Aranara MIDI Player for Rendering Use*
 > [Aranara MIDI Render Toolkit 1.6.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.6.html)
 
-> [Faelei MIDI Render Toolkit 1.6.4](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.4.html) (This version uses [Faelei MIDI Files](https://github.com/Daniferous/MidiParser/tree/Faelei).)
+> [Faelei MIDI Render Toolkit 1.6.5](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.5.html) (This version uses [Faelei MIDI Files](https://github.com/Daniferous/MidiParser/tree/Faelei).)
 
 ## Lurker of the Lost (Aranara MIDI Player Horror Themed Game)
 > [Lurker of the Lost - Beta Release 1.2](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame/Lurker%20of%20the%20Lost%20MIDI%20Player%20BETA%201.2.html)
@@ -42,6 +42,8 @@
 ---
 
 >[Back to top](https://daniferous.github.io/aranara-midi-player-sb3)
+
+---
 
 # Navigation Portal
 

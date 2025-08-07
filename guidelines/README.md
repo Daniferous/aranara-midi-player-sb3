@@ -67,6 +67,8 @@ While I may not be able to moderate content anyone has made, I have no responsib
 
 >[Back to top](https://daniferous.github.io/aranara-midi-player-sb3/guidelines)
 
+---
+
 # Navigation Portal
 
 >[Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
