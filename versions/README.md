@@ -15,9 +15,9 @@ For more detailed version history, scroll down below the following list of acces
 
 To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Render Toolkit 1.6.5](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.5.html)
+> [Faelei MIDI Render Toolkit 1.6.7](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.7.html)
 
-> [Faelei MIDI Player 1.0.2](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.2.html)
+> [Faelei MIDI Player 1.0.4](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.4.html)
 
 ## Aranara MIDI Software
 **Important: Please do not attempt to upload MIDIs with the Faelei format to any Aranara MIDI Softwares due to unsupported data. Only run Aranara MIDIs with Aranara MIDI Softwares.**
@@ -48,13 +48,21 @@ To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded 
 
 ## Faelei MIDI Render Toolkit Versions
 
-### 1.6.6
+### 1.6.7
 
-*Added Fast Visual Generation Option. Uses a slightly altered visual generation algorithm that greatly reduces generation times, especially on MIDIs with high polyphonic quantities or MIDIs with "Sustain/Polyphony Bombs", at the cost of compromising visual quality on some MIDIs. Does not affect Audio Quality.*
+*Fixed Audio System:*
+1. *Removed redundancies that was originally intended to prevent crashes, but crashes would not occur without said redundancies.*
+2. *Redundancies caused the last event/note to not be played or rendered.*
+3. *If such removal causes issues, the changes will be reversed.*
 
 > This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Render Toolkit 1.6.6](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.6.html)
+> [Faelei MIDI Render Toolkit 1.6.7](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.7.html)
+
+---
+### 1.6.6
+
+*Added Fast Visual Generation Option. Uses a slightly altered visual generation algorithm that greatly reduces generation times, especially on MIDIs with high polyphonic quantities or MIDIs with "Sustain/Polyphony Bombs", at the cost of compromising visual quality on some MIDIs. Does not affect Audio Quality.*
 
 ---
 ### 1.6.5 
@@ -113,16 +121,25 @@ To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded 
 
 ## Faelei MIDI Player Versions
 
+### 1.0.4
+
+*Fixed Audio System:*
+1. *Removed redundancies that was originally intended to prevent crashes, but crashes would not occur without said redundancies.*
+2. *Redundancies caused the last event/note to not be played or rendered.*
+3. *If such removal causes issues, the changes will be reversed.*
+
+> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+
+> [Faelei MIDI Player 1.0.4](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.4.html)
+
+---
 ### 1.0.3
 
 *Added Fast Visual Generation Option. Uses a slightly altered visual generation algorithm that greatly reduces generation times, especially on MIDIs with high polyphonic quantities or MIDIs with "Sustain/Polyphony Bombs", at the cost of compromising visual quality on some MIDIs. Does not affect Audio Quality.*
 
 *This Fast Visual Generation Option is enabled by default and cannot be disabled. Please use the Faelei MIDI Render Toolkit to enable/disable this option.*
 
-> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
-
-> [Faelei MIDI Player 1.0.3](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.3.html)
-
+---
 ### 1.0.2
 *Minor fixes applied to both FMRT and FMP.*
 
@@ -376,7 +393,7 @@ Initial Version of Aranara MIDI Format
 
 # Faelei MIDI Format Versions
 *Generally identical to Aranara MIDI, but contains support for MIDI CC and Pitch Bends.*
-> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.3.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.6.html) are now available. 
+> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.4.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.7.html) are now available. 
 
 >To convert your MIDIs into compatible Faelei MIDIs, you can visit [the Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
