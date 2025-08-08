@@ -95,7 +95,7 @@ This has been very long, oops...
 
 >[Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
 
->[Aranara MIDI Programs and MIDI Specifications](https://daniferous.github.io/aranara-midi-player-sb3/versions)
+>[MIDI Programs and MIDI Specifications](https://daniferous.github.io/aranara-midi-player-sb3/versions)
 
 >[Lurker of the Lost Game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
 

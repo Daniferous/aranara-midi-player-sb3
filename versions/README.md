@@ -48,13 +48,18 @@ To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded 
 
 ## Faelei MIDI Render Toolkit Versions
 
-### 1.6.5 
+### 1.6.6
 
-*Minor fixes applied to both FMRT and FMP.*
+*Added Fast Visual Generation Option. Uses a slightly altered visual generation algorithm that greatly reduces generation times, especially on MIDIs with high polyphonic quantities or MIDIs with "Sustain/Polyphony Bombs", at the cost of compromising visual quality on some MIDIs. Does not affect Audio Quality.*
 
 > This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Render Toolkit 1.6.5](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.5.html)
+> [Faelei MIDI Render Toolkit 1.6.6](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.6.html)
+
+---
+### 1.6.5 
+
+*Minor fixes applied to both FMRT and FMP.*
 
 ---
 ### 1.6.4
@@ -108,26 +113,31 @@ To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded 
 
 ## Faelei MIDI Player Versions
 
-### Release 1.0.2
-*Minor fixes applied to both FMRT and FMP.*
+### 1.0.3
 
-*Has the Fast Audio Mode Setting from FMRT 1.6.4 enabled by default.*
+*Added Fast Visual Generation Option. Uses a slightly altered visual generation algorithm that greatly reduces generation times, especially on MIDIs with high polyphonic quantities or MIDIs with "Sustain/Polyphony Bombs", at the cost of compromising visual quality on some MIDIs. Does not affect Audio Quality.*
+
+*This Fast Visual Generation Option is enabled by default and cannot be disabled. Please use the Faelei MIDI Render Toolkit to enable/disable this option.*
 
 > This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Player 1.0.2](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.2.html)
+> [Faelei MIDI Player 1.0.3](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.3.html)
 
+### 1.0.2
+*Minor fixes applied to both FMRT and FMP.*
+
+*Has the Fast Audio Mode Setting from FMRT 1.6.4 enabled by default and cannot be disabled. Please use the Faelei MIDI Render Toolkit to enable/disable this option.*
 
 ---
 
-### Release 1.0.1
+### 1.0.1
 *Minor fixes.*
 *Fixed Visual Bug that has persisted since early AMP versions.*
 
 
 ---
 
-### Release 1.0
+### 1.0
 *Fork of AMP 2.3.8. May not work on all browsers but might occasionally work.*
 
 *Initial Release of the Faelei MIDI Player (Modded Aranara MIDI Player 2.3.8)*
@@ -366,7 +376,7 @@ Initial Version of Aranara MIDI Format
 
 # Faelei MIDI Format Versions
 *Generally identical to Aranara MIDI, but contains support for MIDI CC and Pitch Bends.*
-> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.2.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.5.html) are now available. 
+> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.3.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.6.html) are now available. 
 
 >To convert your MIDIs into compatible Faelei MIDIs, you can visit [the Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
@@ -505,7 +515,7 @@ $F_{aeleiTPQ}$ - The PPQ Value of the Converted Faelei MIDI
 
 >[Main Page](https://daniferous.github.io/aranara-midi-player-sb3)
 
->[Aranara MIDI Programs and MIDI Specifications](https://daniferous.github.io/aranara-midi-player-sb3/versions)
+>[MIDI Programs and MIDI Specifications](https://daniferous.github.io/aranara-midi-player-sb3/versions)
 
 >[Lurker of the Lost Game](https://daniferous.github.io/aranara-midi-player-sb3/lostlurkergame)
 
