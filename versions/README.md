@@ -504,9 +504,9 @@ Data Values depend on the Data Type:
 
 <div style="text-align: center;">
 
-${\operatorname{ For }}\ \ O_{riginalTPQ}>1536:\ F_{aeleiTPQ}=\frac{O_{riginalTPQ}}{2^{\operatorname{ceil}\left(\log_{2}\left(\frac{O_{riginalTPQ}}{1536}\right)\right)}}$
+$For\ \ O_{riginalTPQ}>1536: \ F_{aeleiTPQ}=\frac{O_{riginalTPQ}}{2^{\left \lceil \log_{2}\left(\frac{O_{riginalTPQ}}{1536}\right) \right \rceil}}$
 
-${\operatorname{ For }}\ \ 1\le O_{riginalTPQ}\le1536:\ \ F_{aeleiTPQ}=O_{riginalTPQ}$
+$For\ \ 1\le O_{riginalTPQ}\le1536:\ \ F_{aeleiTPQ}=O_{riginalTPQ}$
 
 $Where:$
 
