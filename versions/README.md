@@ -15,9 +15,9 @@ For more detailed version history, scroll down below the following list of acces
 
 To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Render Toolkit 1.6.8](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.8.html)
+> [Faelei MIDI Render Toolkit 1.6.9](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.9.html)
 
-> [Faelei MIDI Player 1.0.5](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.5.html)
+> [Faelei MIDI Player 1.0.6](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.6.html)
 
 ## Aranara MIDI Software
 **Important: Please do not attempt to upload MIDIs with the Faelei format to any Aranara MIDI Softwares due to unsupported data. Only run Aranara MIDIs with Aranara MIDI Softwares.**
@@ -50,21 +50,27 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 ## Faelei MIDI Render Toolkit Versions
 
+### 1.6.9
+*Updated Audio System Once More*
+1. *Attempted to make a "grace period" where in a note's time falls within 1/16 seconds (or 1/32 seconds in Fast Audio Mode).*
+2. *Decided against removing a redundancy in case if it were another support pillar that would cause the entire Note Event Manager to collapse into a black hole.*
+
+> <h3>Recommendations for rendering MIDIs:</h3>
+> <ol>
+> <li>Please use Fast Audio Mode when rendering MIDIs with high polyphony counts or intensity.</li>
+> <li>For faster Visual Generation, enable the Fast Visuals Mode.<br>This could cause a compromise in visual quality, but it will generate the visuals quickly, especially with MIDIs with high polyphony counts.</li>
+> </ol>
+
+> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+
+> [Faelei MIDI Render Toolkit 1.6.9](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.9.html)
+
+---
 ### 1.6.8
 *Fixed Audio System Again*
 1. *Somehow, the issues just reappeared out of nowhere... <br>Almost as if they never existed at all...*
 2. *Removed a redundancy that caused the last event/note to not be played or rendered when using the Fast Audio Mode.*
 3. *If these issues appear once more, it could be fated that it remains.*
-
-> <h3>Recommendations for rendering MIDIs:</h3>
-> <ol>
-> <li>Please use Fast Audio Mode when rendering MIDIs with high polyphony counts or intensity.</li>
-> <li>For faster Visual Generation, enable the Fast Visuals Mode.<br>This could cause a compromise in visual quality, but it will generate the visuals quickly.</li>
-> </ol>
-
-> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
-
-> [Faelei MIDI Render Toolkit 1.6.8](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.8.html)
 
 ---
 ### 1.6.7
@@ -137,15 +143,21 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 ## Faelei MIDI Player Versions
 
+### 1.0.6
+*Updated Audio System Once More*
+1. *Attempted to make a "grace period" where in a note's time falls within 1/16 seconds (or 1/32 seconds in Fast Audio Mode).*
+2. *Removing a redundancy which would only matter with the alternate audio mode which is not present in the Fast Audio Mode this player solely utilizes.*
+
+> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+
+> [Faelei MIDI Player 1.0.6](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.6.html)
+
+---
 ### 1.0.5
 *Fixed Audio System Again*
 1. *Somehow, the issues just reappeared out of nowhere... <br>Almost as if they never existed at all...*
 2. *Removed a redundancy that caused the last event/note to not be played or rendered when using the Fast Audio Mode.*
 3. *If these issues appear once more, it could be fated that it remains.*
-
-> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
-
-> [Faelei MIDI Player 1.0.5](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.5.html)
 
 ---
 ### 1.0.4
