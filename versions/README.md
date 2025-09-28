@@ -3,6 +3,14 @@
 
 >**Please consider checking [rules and guidelines](https://daniferous.github.io/aranara-midi-player-sb3/guidelines) before reading below!**
 
+> <h3>Important Notice</h3>
+> <p>The <i>Aranara MIDI Format</i> will soon be replaced with the updated <i>Faelei MIDI Format</i> which itself is near-identical except with the addition for Control Change and Pitch Bend Event Support.</p>
+> You can learn more about the Faelei MIDI Format <a href="https://daniferous.github.io/aranara-midi-player-sb3/versions/#main-structure-1">here</a>.
+
+&nbsp; 
+
+
+
 # Aranara and Faelei MIDI Software Versions
 This list contains most, if not all, the versions for both Aranara-based and Faelei-based MIDI Softwares.
 
@@ -15,7 +23,7 @@ For more detailed version history, scroll down below the following list of acces
 
 To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Render Toolkit 1.6.9](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.9.html)
+> [Faelei MIDI Render Toolkit 1.7.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.0.html)
 
 > [Faelei MIDI Player 1.0.6](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.6.html)
 
@@ -50,10 +58,25 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 ## Faelei MIDI Render Toolkit Versions
 
-### 1.6.9
-*Updated Audio System Once More*
-1. *Attempted to make a "grace period" where in a note's time falls within 1/16 seconds (or 1/32 seconds in Fast Audio Mode).*
-2. *Decided against removing a redundancy in case if it were another support pillar that would cause the entire Note Event Manager to collapse into a black hole.*
+### 1.7.0
+*Added Option for Glowing Notes at the Keyboard (Synthesia-like)*
+*There are currently two modes for Glowing Notes:*
+
+1. <i>**Static** - The notes will glow based on whether the Keyboard contains visual (or color) data. If the keyboard is pressed, for example, a glow is generated.</i>
+2. <i>**Dynamic** - In addition to the Static Mode, a list is used to determine which notes will glow. A note's pitch, velocity, and "note-off time" (a note's time plus its length) is added for each audible note generated. Meaning, only audible notes (configurable with the Audio Threshold setting) that have been created will cast a note glow. The Dynamic Mode list buffer is set to a maximum of 256 glowing notes to prevent lag. This may be configurable in the future.</i>
+
+> <h3>Important Note with Dynamic Glowing Notes:</h3>
+> <ol>
+> <li>Using Fast Visuals Mode may cause a phenomenon of "Ghost Notes", wherein a glow effect will be generated even when there does not seem to be any note visually. </li>
+> <li>This is a direct consequence of the Fast Visuals Mode and is not a bug or issue. <br>You may have to disable Fast Visuals Mode to remove Ghost Notes.</li>
+> <li>Alternatively, if enabling Fast Visuals Mode is a must, then it is recommended to use Static Glowing Notes instead.</li>
+> </ol>
+&nbsp; 
+
+*Removed Old Audio Mode System in favor of the Fast Audio Mode System.*
+
+1. *The old Audio System will now use the same Fast Audio Mode but at a higher grace-period of 1/8 seconds.*
+2. *The current Fast Audio Mode will retain the 1/32 second grace period.*
 
 > <h3>Recommendations for rendering MIDIs:</h3>
 > <ol>
@@ -63,7 +86,18 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 > This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Render Toolkit 1.6.9](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.9.html)
+> [Faelei MIDI Render Toolkit 1.7.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.0.html)
+
+&nbsp;
+
+---
+### 1.6.9
+*Updated Audio System Once More*
+1. *Attempted to make a "grace period" where in a note's time falls within 1/16 seconds (or 1/32 seconds in Fast Audio Mode).*
+2. *Decided against removing a redundancy in case if it were another support pillar that would cause the entire Note Event Manager to collapse into a black hole.*
+
+&nbsp;
+
 
 ---
 ### 1.6.8
@@ -71,6 +105,8 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 1. *Somehow, the issues just reappeared out of nowhere... <br>Almost as if they never existed at all...*
 2. *Removed a redundancy that caused the last event/note to not be played or rendered when using the Fast Audio Mode.*
 3. *If these issues appear once more, it could be fated that it remains.*
+
+&nbsp;
 
 ---
 ### 1.6.7
@@ -80,21 +116,31 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 2. *Redundancies caused the last event/note to not be played or rendered.*
 3. *If such removal causes issues, the changes will be reversed.*
 
+&nbsp;
 
 ---
 ### 1.6.6
 
-*Added Fast Visual Generation Option. Uses a slightly altered visual generation algorithm that greatly reduces generation times, especially on MIDIs with high polyphonic quantities or MIDIs with "Sustain/Polyphony Bombs", at the cost of compromising visual quality on some MIDIs. Does not affect Audio Quality.*
+<i>Added Fast Visual Generation Option. 
+
+Uses a slightly altered visual generation algorithm that greatly reduces generation times, especially on MIDIs with high polyphonic quantities or MIDIs with "Sustain/Polyphony Bombs", at the cost of compromising visual quality on some MIDIs. Does not affect Audio Quality.
+</i>
+
+&nbsp;
 
 ---
 ### 1.6.5 
 
 *Minor fixes applied to both FMRT and FMP.*
 
+&nbsp;
+
 ---
 ### 1.6.4
 
 *Fixed Visual Bug that has persisted since early AMP versions.*
+
+&nbsp;
 
 ---
 ### 1.6.3
@@ -103,12 +149,16 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 *Since this implemented a change made in AMRT 1.6, the name for this version has been changed from AMRT 1.5 Faelei MIDI MOD Rev 3 to FMRT 1.6.3.*
 
+&nbsp;
+
 ---
 
 ### 1.6.2
 *Added an option to "limit audible note lengths to a maximum of 1 beat", which was originally in AMRT 1.5.*
 
 *Used to be known as AMRT 1.5 Faelei MIDI MOD Rev 2.*
+
+&nbsp;
 
 ---
 
@@ -118,6 +168,8 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 *Initial Release of the Faelei MIDI Render Toolkit. Version numbering retained from the original Aranara MIDI Render Toolkit.*
 
 *Originally named "AMRT 1.5 Faelei MIDI MOD Rev 1".*
+
+&nbsp;
 
 ## Aranara MIDI Render Toolkit Versions
 
@@ -130,16 +182,22 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 > [Aranara MIDI Render Toolkit 1.6.html](https://daniferous.github.io/aranara-midi-player-sb3/amrt/Aranara%20MIDI%20Render%20Toolkit%201.6.html)
 
 
+&nbsp;
+
 ---
 
 ### 1.5
 *Added option to limit audible note lengths to a maximum of 1 beat.*
 
 
+&nbsp;
+
 ---
 
 ### 1.4
 *Fixed Palette Bug persisting in versions prior. This does not affect the AMP series.*
+
+&nbsp;
 
 ## Faelei MIDI Player Versions
 
@@ -152,12 +210,16 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 > [Faelei MIDI Player 1.0.6](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.6.html)
 
+&nbsp;
+
 ---
 ### 1.0.5
 *Fixed Audio System Again*
 1. *Somehow, the issues just reappeared out of nowhere... <br>Almost as if they never existed at all...*
 2. *Removed a redundancy that caused the last event/note to not be played or rendered when using the Fast Audio Mode.*
 3. *If these issues appear once more, it could be fated that it remains.*
+
+&nbsp;
 
 ---
 ### 1.0.4
@@ -167,6 +229,8 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 2. *Redundancies caused the last event/note to not be played or rendered.*
 3. *If such removal causes issues, the changes will be reversed.*
 
+&nbsp;
+
 ---
 ### 1.0.3
 
@@ -174,11 +238,15 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 *This Fast Visual Generation Option is enabled by default and cannot be disabled. Please use the Faelei MIDI Render Toolkit to enable/disable this option.*
 
+&nbsp;
+
 ---
 ### 1.0.2
 *Minor fixes applied to both FMRT and FMP.*
 
 *Has the Fast Audio Mode Setting from FMRT 1.6.4 enabled by default and cannot be disabled. Please use the Faelei MIDI Render Toolkit to enable/disable this option.*
+
+&nbsp;
 
 ---
 
@@ -186,6 +254,7 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 *Minor fixes.*
 *Fixed Visual Bug that has persisted since early AMP versions.*
 
+&nbsp;
 
 ---
 
@@ -193,6 +262,8 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 *Fork of AMP 2.3.8. May not work on all browsers but might occasionally work.*
 
 *Initial Release of the Faelei MIDI Player (Modded Aranara MIDI Player 2.3.8)*
+
+&nbsp;
 
 ## Aranara MIDI Player Versions 
 
@@ -205,18 +276,21 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 > [Aranara MIDI Player Release 2.3.8](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.3.8.html)
 
+&nbsp;
 
 ---
 
 ### 2.3.7
 *Fixed a bug where Program Change does not work as intended for Ch 16.*
 
+&nbsp;
 
 ---
 
 ### 2.3.4
 *Fixed bug where having more than multiple songs would cause choosing menu options to load/delete songs*
 
+&nbsp;
 
 ---
 
@@ -228,6 +302,7 @@ A crucial update has been made to the Aranara MIDI Format. Thus, any future Aran
 
 Aranara MIDI Format has been updated to Version 1.2.
 
+&nbsp;
 
 ---
 
@@ -236,6 +311,7 @@ Aranara MIDI Format has been updated to Version 1.2.
 *Fixed a bug in deleting songs*
 Note: There is a known bug wherein regardless of tracks, channel colors will remain the same if using PFA Color Mode. (MIDITrail-like) This has been fixed in 2.3.3.
 
+&nbsp;
 
 ---
 
@@ -243,12 +319,14 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 *New Audio System Test - First Public Release of 2.X*
 > [Aranara MIDI Player Release 2.2.2](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%202.2.2.html)
 
+&nbsp;
 
 ---
 
 ### 2.1.0
 *New Color System Test*
 
+&nbsp;
 
 ---
 
@@ -259,6 +337,7 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 *The Visual System is based off on the Fancy Version of the Aranara MIDI Player Lite Version 0.3.5.*
 
+&nbsp;
 
 ---
 
@@ -270,6 +349,7 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 >*The "Fancy" edition contains slightly more blocks but is more similar in aesthetics to PFA. Block Ct: 1305*
 
+&nbsp;
 
 ---
 
@@ -277,6 +357,7 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 *Minor Bug Fixes*
 > [Aranara MIDI Player Release 1.5.5](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.5.html)
 
+&nbsp;
 
 ---
 
@@ -284,6 +365,7 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 *Implemented the Boba Branch and merged it with the main branch. Identical to the latest Boba Update (B1.2)*
 > [Aranara MIDI Player Release 1.5.4](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.4.html)
 
+&nbsp;
 
 ---
 
@@ -292,24 +374,28 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 > [Aranara MIDI Player Release 1.5.3 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.5.3W.html)
 
+&nbsp;
 
 ---
 
 ### 1.5.3 - Boba Branch
 *The Boba Branch is an experimental branch where only the audio events and visual data are used during playback, at the cost of not having a notecount...*
 
+&nbsp;
 
 ---
 
 ### 1.5.0
 *Private Development Branch, not really used for R1.5.X*
 
+&nbsp;
 
 ---
 
 ### 1.4
 *Private Development Branch, progress eventually abandoned in favor for the Development of the Boba Branch slated for Release 1.5.*
 
+&nbsp;
 
 ---
 
@@ -319,24 +405,28 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 > [Aranara MIDI Player Release 1.3.2 Widescreen](https://daniferous.github.io/aranara-midi-player-sb3/amp/Aranara%20MIDI%20Player%20R1.3.2W.html)
 
+&nbsp;
 
 ---
 
 ### 1.2.3
 *Minor Fixes.*
 
+&nbsp;
 
 ---
 
 ### 1.2
 *Improved GUI, the menu now contains the title of the program: Aranara MIDI Player.*
 
+&nbsp;
 
 ---
 
 ### 1.1
 *The GUI now utilizes a Text Engine and simple buttons to add or remove AraMIDIs.*
 
+&nbsp;
 
 ---
 
@@ -347,11 +437,14 @@ Note: There is a known bug wherein regardless of tracks, channel colors will rem
 
 Aranara MIDI Format has been updated to Version 1.1.
 
+&nbsp;
 
 ---
 
 ### Development Builds
 *Versions prior to Release 1.0 (Either AraKazu MIDI Player or Aranara MIDI Player) did not have a proper GUI and contained no MIDIs. Earlier Builds used Aranara MIDI Format 1.0.*
+
+&nbsp;
 
 ---
 
@@ -428,7 +521,7 @@ Initial Version of Aranara MIDI Format
 
 # Faelei MIDI Format Versions
 *Generally identical to Aranara MIDI, but contains support for MIDI CC and Pitch Bends.*
-> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.4.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.6.7.html) are now available. 
+> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.6.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.0.html) are now available. 
 
 >To convert your MIDIs into compatible Faelei MIDIs, you can visit [the Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
