@@ -59,6 +59,8 @@ Special thanks to the following:
 
 2. [Maxime Abbey of Arachnosoft](https://www.arachnosoft.com/main/download.php?id=soundfont-sf2) - For the creation of the Arachno Soundfont, which in my opinion is a widely-used soundfont (at least, back then) for Black MIDIs utilizing instruments! Especially for the Drum Instruments, in which it originated from the Arachno Soundfont.
 
+> Note: Faelei MIDI Programs utilize the MIDI Synth installed in the Computer/Device. Thus, these programs no longer contain the above sound assets. You may need to have a working MIDI Synth for those programs to function properly.
+
 ## Visual Asset Credits
 Save for the Scratch Piano From Above Project, which was inspired by [Piano From Above by Brian Pantano](https://github.com/brian-pantano/PianoFromAbove), most of my textures, including that of the Fonts used, were made by me.
 

@@ -23,9 +23,9 @@ For more detailed version history, scroll down below the following list of acces
 
 To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Render Toolkit 1.7.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.0.html)
+> [Faelei MIDI Render Toolkit 1.7.1](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.1.html)
 
-> [Faelei MIDI Player 1.0.6](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.6.html)
+> [Faelei MIDI Player 1.0.7](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.7.html)
 
 ## Aranara MIDI Software
 **Important: Please do not attempt to upload MIDIs with the Faelei format to any Aranara MIDI Softwares due to unsupported data. Only run Aranara MIDIs with Aranara MIDI Softwares.**
@@ -58,6 +58,21 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 
 ## Faelei MIDI Render Toolkit Versions
 
+### 1.7.1
+
+*Added a Safeguard that prevents the Player from Softlocking when attempting to load long MIDIs.*
+
+> It is recommended to downscale the PPQ of the MIDI should it exceed a million ticks in length, or split it into multiple sections.
+
+> If this Safeguard is triggered while loading shorter MIDIs at a higher Render Resolution Setting, you may need to decrease this setting or split the MIDI into halves.
+
+> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+
+> [Faelei MIDI Render Toolkit 1.7.1](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.1.html)
+
+&nbsp;
+
+---
 ### 1.7.0
 *Added Option for Glowing Notes at the Keyboard (Synthesia-like)*
 *There are currently two modes for Glowing Notes:*
@@ -83,10 +98,6 @@ To convert MIDIs to .aramidi files, navigate to the [Master Branch of the Modded
 > <li>Please use Fast Audio Mode when rendering MIDIs with high polyphony counts or intensity.</li>
 > <li>For faster Visual Generation, enable the Fast Visuals Mode.<br>This could cause a compromise in visual quality, but it will generate the visuals quickly, especially with MIDIs with high polyphony counts.</li>
 > </ol>
-
-> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
-
-> [Faelei MIDI Render Toolkit 1.7.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.0.html)
 
 &nbsp;
 
@@ -201,14 +212,22 @@ Uses a slightly altered visual generation algorithm that greatly reduces generat
 
 ## Faelei MIDI Player Versions
 
+### 1.0.7
+*Added a Safeguard that prevents the Player from Softlocking when attempting to load long MIDIs.*
+
+> It is recommended to downscale the PPQ of the MIDI should it exceed a million ticks in length, or split it into multiple sections.
+
+> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
+
+> [Faelei MIDI Player 1.0.7](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.7.html)
+
+&nbsp;
+
+---
 ### 1.0.6
 *Updated Audio System Once More*
 1. *Attempted to make a "grace period" where in a note's time falls within 1/16 seconds (or 1/32 seconds in Fast Audio Mode).*
 2. *Removing a redundancy which would only matter with the alternate audio mode which is not present in the Fast Audio Mode this player solely utilizes.*
-
-> This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
-
-> [Faelei MIDI Player 1.0.6](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.6.html)
 
 &nbsp;
 
@@ -462,7 +481,7 @@ Structure is as follows:
 Data Type can be as follows:
 ```
 0 - 7: First digit of note pitch, which ranges from 00 to 7F.
-8 - B: Reserved, Unused
+8 - B: Unregistered, Unused
 C: Control Change, Unused
 D: Program Change
 E: Tempo Change
@@ -521,7 +540,7 @@ Initial Version of Aranara MIDI Format
 
 # Faelei MIDI Format Versions
 *Generally identical to Aranara MIDI, but contains support for MIDI CC and Pitch Bends.*
-> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.6.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.0.html) are now available. 
+> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.7.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.1.html) are now available. 
 
 >To convert your MIDIs into compatible Faelei MIDIs, you can visit [the Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
@@ -537,7 +556,7 @@ Structure is as follows:
 Data Type can be as follows:
 ```
 0 - 7: First digit of note pitch, which ranges from 00 to 7F.
-8 - A: Reserved
+8 - A: Unregistered, Unused
 B: Pitch Bends
 C: Control Change
 D: Program Change
@@ -648,7 +667,7 @@ $F_{aeleiTPQ}$ - The PPQ Value of the Converted Faelei MIDI
 
 > ### Disclaimer
 > - It is worth noting that this system is imperfect. There may be new conditions, such as allowing any custom PPQ/resolutions to not conform to either of the rules provided that it falls within an "acceptable range."
-> - The acceptable range will be between 512 and 1536. Larger PPQs will have to be rounded down.
+> - The acceptable range will be between 512 and 1536. Larger PPQs will have to be rounded down. <br> (This has already been achieved with Faelei 1.1.)
 
 ---
 
