@@ -68,12 +68,16 @@ The Palette Menu in the Aranara MIDI Render Toolkit is developed by me.
 
 ## Plugin Credits
 Special thanks to the following for making my projects possible:
-1. [GarboMuffin](https://scratch.mit.edu/users/GarboMuffin/#comments) - For developing TurboWarp, the framework for my Aranara MIDI Programs, as well as several of the plugins they have created for TurboWarp.
-2. [CST1229](https://scratch.mit.edu/users/CST1229/), [BludIsAnLemon](https://scratch.mit.edu/users/BludIsAnLemon/), and [Man-o-Valor](https://scratch.mit.edu/users/man-o-valor/) - For the Text Plugin
-3. [TrueFantom](https://scratch.mit.edu/users/TrueFantom/) - For the Base and Math Plugins
-4. [ObviousAlexC](https://scratch.mit.edu/users/pinksheep2917/) - For the Pen Plus V7 and the Sensing Plus Plugins 
-5. [LilyMakesThings](https://scratch.mit.edu/users/LilyMakesThings/) - For A LOT of the Plugins used in my MIDI Programs, such as the Clones Plus, Looks Plus, More Events, and List Tools Plugins.
-6. [XeroName](https://scratch.mit.edu/users/plant2014/) - For the Delta Time Plugin
+1. [hevean](https://scratch.mit.edu/users/hevean_3/) - For the MIDI Plugin.
+2. [GarboMuffin](https://scratch.mit.edu/users/GarboMuffin/#comments) - For developing TurboWarp, the framework for my Aranara MIDI Programs, as well as several of the plugins they have created for TurboWarp.
+3. [CST1229](https://scratch.mit.edu/users/CST1229/), [BludIsAnLemon](https://scratch.mit.edu/users/BludIsAnLemon/), and [Man-o-Valor](https://scratch.mit.edu/users/man-o-valor/) - For the Text Plugin
+4. [TrueFantom](https://scratch.mit.edu/users/TrueFantom/) - For the Base and Math Plugins
+5. [ObviousAlexC](https://scratch.mit.edu/users/pinksheep2917/) - For the Pen Plus V7 and the Sensing Plus Plugins 
+6. [LilyMakesThings](https://scratch.mit.edu/users/LilyMakesThings/) - For A LOT of the Plugins used in my MIDI Programs, such as the Clones Plus, Looks Plus, More Events, and List Tools Plugins.
+7. [XeroName](https://scratch.mit.edu/users/plant2014/) - For the Delta Time Plugin
+8. [Skyhigh173](https://scratch.mit.edu/users/Skyhigh173/) and [Mio](https://scratch.mit.edu/users/0znzw/) - For the JSON Plugin.
+9. [qxsck](https://scratch.mit.edu/users/qxsck/) - For the Variable and List Plugin.
+10. [OjasnGamer101](https://scratch.mit.edu/users/OjasnGamer101/) - For the Updated Render Visual Generation Plugin.
 
 ## Disclaimer
 Feel free to contact me through my email, [Scratch Profile](https://scratch.mit.edu/users/OjasnGamer101/), and [Daniferousity Discord Server](https://discord.gg/kTD8y6YDjJ), if you have not been included in this Credits list. This list is not 100.00...00% exhaustive, and I might have forgotten some bits and pieces here and there. I'd appreciate it if you point out any corrections. Thank you!

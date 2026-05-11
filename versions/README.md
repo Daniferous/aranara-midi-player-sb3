@@ -25,7 +25,7 @@ To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded 
 
 > [Faelei MIDI Render Toolkit 1.7.1](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.1.html)
 
-> [Faelei MIDI Player 1.0.7](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.7.html)
+> [Faelei MIDI Player 1.1.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.1.0.html)
 
 ## Aranara MIDI Software
 **Important: Please do not attempt to upload MIDIs with the Faelei format to any Aranara MIDI Softwares due to unsupported data. Only run Aranara MIDIs with Aranara MIDI Softwares.**
@@ -212,14 +212,25 @@ Uses a slightly altered visual generation algorithm that greatly reduces generat
 
 ## Faelei MIDI Player Versions
 
-### 1.0.7
-*Added a Safeguard that prevents the Player from Softlocking when attempting to load long MIDIs.*
+### 1.1.0
+*Rendering System Overhaul!* 
 
-> It is recommended to downscale the PPQ of the MIDI should it exceed a million ticks in length, or split it into multiple sections.
+1. *Replaced the current rendering system with a method that looks very similar but uses a more efficient data structure. You can now play longer MIDIs.*
+
+2. *Optimized Rendering Pipeline: MIDI now downscales below a PPQ threshold since there were still so many notes that were subpixel in height.*
+
+
+> *This change may not apply to the Faelei MIDI Render Toolkit Series.*
 
 > This version utilises a different MIDI Format (.faelei). To convert MIDIs to .faelei files, navigate to the [Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
-> [Faelei MIDI Player 1.0.7](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.7.html)
+> [Faelei MIDI Player 1.1.0](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.1.0.html)
+
+&nbsp;
+
+---
+### 1.0.7
+*Added a Safeguard that prevents the Player from Softlocking when attempting to load long MIDIs.*
 
 &nbsp;
 
@@ -540,7 +551,7 @@ Initial Version of Aranara MIDI Format
 
 # Faelei MIDI Format Versions
 *Generally identical to Aranara MIDI, but contains support for MIDI CC and Pitch Bends.*
-> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.0.7.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.1.html) are now available. 
+> [Faelei MIDI Player](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Player%201.1.0.html) and [Faelei MIDI Render Toolkit](https://daniferous.github.io/aranara-midi-player-sb3/faelei/Faelei%20MIDI%20Render%20Toolkit%201.7.1.html) are now available. 
 
 >To convert your MIDIs into compatible Faelei MIDIs, you can visit [the Faelei Branch of the Modded MIDIParser Tool here](https://github.com/Daniferous/MidiParser/tree/Faelei).
 
@@ -625,20 +636,25 @@ Data Values depend on the Data Type:
 ### 2. For MIDIs with PPQ values greater than 1536, it will be brought down to a value at or under 1536.
 - This is done by dividing the PPQ value by 2 multiple times until it is at or under 1536. For example, a MIDI with an original PPQ value of either 1920 or 3840 will be brought down to 960.
 - In the updated Modded Faelei MIDI Parser, the following is the algorithm used to determine the PPQ/TPQ value used in the converted Faelei MIDI.
+- Operation Pseudocode (since LaTeX functions are not fully supported.)
 
-<div style="text-align: center;">
+```
+If Original_TPQ > 1536:
+Let Faelei_TPQ =
+         Original_TPQ
+------------------------------
+                Original_TPQ
+2^Ceiling(log_2(------------))
+                    1536
+Else:
+Let Faelei_TPQ = Original_TPQ
+```
 
-$For\ \ O_{riginalTPQ}>1536: \ F_{aeleiTPQ}=\frac{O_{riginalTPQ}}{2^{\left \lceil \log_{2}\left(\frac{O_{riginalTPQ}}{1536}\right) \right \rceil}}$
+Where:
 
-$For\ \ 1\le O_{riginalTPQ}\le1536:\ \ F_{aeleiTPQ}=O_{riginalTPQ}$
+`Original_TPQ` - The PPQ Value of the Imported MIDI
 
-$Where:$
-
-$O_{riginalTPQ}$ - The PPQ Value of the Imported MIDI
-
-$F_{aeleiTPQ}$ - The PPQ Value of the Converted Faelei MIDI
-
-</div>
+`Faelei_TPQ` - The PPQ Value of the Converted Faelei MIDI
 
 - Thus, with a division factor of 2, <u>there is minimal loss in data accuracy compared to if it were a factor of 5 or 10</u>. However, issues may arise if a MIDI has a PPQ that is either odd-numbered or is not a multiple of 2<sup>n</sup>, with n being the number of divisions. This should not be an issue for MIDIs having common PPQ values.
 
